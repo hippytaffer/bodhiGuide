@@ -90,7 +90,7 @@
           If you do find it necessary to completely remove one (or more)
           however, simply uninstall it in <strong>Synaptic Package Manager</strong>
           like any other other application or use the command: </p>
-        <pre class="code">sudo apt remove [module-name]</pre>
+        <pre class="code">sudo apt-get remove [module-name]</pre>
         <hr />
         <table width="100%">
           <tbody>
