@@ -1,0 +1,86 @@
+Sorting...
+Full Text Search...
+moksha-module-alarm/unknown 0.1.1-2 amd64
+  Simple Alarm Module
+
+moksha-module-calendar/unknown 0.1.1-2 amd64
+  Calendar module for the Moksha desktop
+
+moksha-module-compton/unknown,now 0.1.1-2 amd64 [installed]
+  Compton module for Moksha desktop
+
+moksha-module-cpu/unknown 0.1.1-2 amd64
+  CPU module for the Moksha desktop
+
+moksha-module-deskshow/unknown 0.1.1-2 amd64
+  Deskshow Module for the Moksha desktop.
+
+moksha-module-desktitle/unknown 0.1.1-3 amd64
+  Desktitle Module for Moksha
+
+moksha-module-dictionary/unknown 0.0.1-1 amd64
+  Dictionary plugin for Moksha Quick launcher
+
+moksha-module-diskio/unknown 0.1.1-2 amd64
+  Disk io module for the Moksha desktop
+
+moksha-module-engage/unknown 0.1.2-3 amd64
+  Engage Moksha Module
+
+moksha-module-flame/unknown 0.1.1-2 amd64
+  Flame Module for Moksha
+
+moksha-module-forecasts/unknown,now 0.1.1-4 amd64 [installed]
+  Forecasts Module Moksha
+
+moksha-module-mail/unknown 0.1.1-2 amd64
+  mail module for the Moksha desktop
+
+moksha-module-mem/unknown 0.1.2-3 amd64
+  Memory module for the Moksha desktop
+
+moksha-module-net/unknown 0.1.1-2 amd64
+  Network module for the Moksha desktop
+
+moksha-module-news/unknown 0.1.2-2 amd64
+  News Module for Moksha
+
+moksha-module-penguins/unknown 0.1.1-2 amd64
+  Penguins Module for Moksha
+
+moksha-module-photo/unknown 0.1.1-2 amd64
+  Photo module for Moksha
+
+moksha-module-productivity/unknown 0.1.1-2 amd64
+  Productivity Module for Moksha
+
+moksha-module-rain/unknown 0.1.1-2 amd64
+  Rain Module for Moksha
+
+moksha-module-screenshot/unknown 0.1.1-4 amd64
+  Advanced Screenshot Module
+
+moksha-module-slideshow/unknown 0.1.1-2 amd64
+  Slideshow Module for Moksha
+
+moksha-module-snow/unknown 0.1.1-2 amd64
+  Snow module for Moksha
+
+moksha-module-spellchecker/unknown 0.0.1-1 amd64
+  Spell Checker plugin for Moksha Quick launcher
+
+moksha-module-stickynotes/unknown 0.1.1-2 amd64
+  stickynotes module for the Moksha desktop
+
+moksha-module-tclock/unknown 0.1.1-2 amd64
+  Digital clock module for Moksha
+
+moksha-module-wincontrol/unknown 0.1.1-3 amd64
+  Winselector Module for Moksha
+
+moksha-module-winlist-ng/unknown 0.1.1-2 amd64
+  Winlist NG module for Moksha
+
+moksha-module-winselector/unknown 0.1.1-2 amd64
+  Winselector Module for Moksha
+
