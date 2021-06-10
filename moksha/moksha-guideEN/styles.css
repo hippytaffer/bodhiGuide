@@ -1,4 +1,11 @@
-/* ---------------------------------------------------------------------------
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>/* ---------------------------------------------------------------------------
  *  FILE:        Styles.css
  *  DESCRIPTION: Global Stylesheet for www.bodhilinux.com
  *  AUTHORS:     Jason Peel, Ken LaBuda, et al, Joris van Dijk.
@@ -80,7 +87,7 @@ img {
 }
 
 /* ----------------------------------------------------------------------------
- * GLOBAL > HEADERS
+ * GLOBAL &gt; HEADERS
  * ----------------------------------------------------------------------------
  */
 h1, h2, h3, h4, h5, h6 {
@@ -96,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----------------------------------------------------------------------------
- *  GLOBAL > TABLES
+ *  GLOBAL &gt; TABLES
  * ----------------------------------------------------------------------------
  */
 table {
@@ -117,7 +124,7 @@ td {
 }
 
 /* ----------------------------------------------------------------------------
- *  GLOBAL > CLASSES
+ *  GLOBAL &gt; CLASSES
  * ----------------------------------------------------------------------------
  */
 A:link {text-decoration: none}
@@ -127,7 +134,7 @@ A:hover {text-decoration: underline}
 
 
 /* ----------------------------------------------------------------------------
- *  GLOBAL > CLASSES
+ *  GLOBAL &gt; CLASSES
  * ----------------------------------------------------------------------------
  */
 .clear {
@@ -151,7 +158,7 @@ A:hover {text-decoration: underline}
 }
 
 /* ----------------------------------------------------------------------------
- *  GLOBAL > CLASSES > MAINLINK
+ *  GLOBAL &gt; CLASSES &gt; MAINLINK
  * ----------------------------------------------------------------------------
  */
 .mainlink {
@@ -202,7 +209,7 @@ a.mainlink:hover {
 }
 
 /* ----------------------------------------------------------------------------
- *  CONTENT > MAINCONTENT
+ *  CONTENT &gt; MAINCONTENT
  * ----------------------------------------------------------------------------
  */
  .clearfix {
@@ -224,7 +231,7 @@ a.mainlink:hover {
     font-size: 36px;
     margin-bottom: 15px;
     padding-top: 10px;
-    color: #ff6600;
+    color: #419236;
 }
 
 #content #maincontent h2 {
@@ -232,7 +239,7 @@ a.mainlink:hover {
     font-size: 24px;
     margin-bottom: 5px;
     padding-top: 5px;
-    color: #ff6600;
+    color: #419236;
 }
 
 #content #maincontent h3 {
@@ -240,7 +247,7 @@ a.mainlink:hover {
     font-size: 16px;
     margin-bottom: 15px;
     padding-top: 5px;
-    color: #ff6600;
+    color: #419236;
 }
 
 #content #maincontent h5 {
@@ -256,16 +263,16 @@ a.mainlink:hover {
     font-size: 16px;
     margin-bottom:0px;
     padding-top: 5px;
-    color: #ff6600;
+    color: #419236;
 }
 #content #maincontent h7 {
     font-family: Ubuntu; /* no .ttf */
     margin-bottom:0px;
     padding-top: 5px;
-    color: #ff6600;
+    color: #419236;
 }
 /* ----------------------------------------------------------------------------
- *  ADDITIONS > CODE TAGS
+ *  ADDITIONS &gt; CODE TAGS
  * ----------------------------------------------------------------------------
  */
 .box{
@@ -275,7 +282,7 @@ a.mainlink:hover {
    border-color:#000;
    padding: 3px;
    margin:5px;
-   background-color:#ff6600;
+   background-color:#419236;
 }
 
 /* ----------------------------------------------------------------------------
@@ -292,3 +299,6 @@ li {
 li span {
     font-size: 0.25em;
 }
+</pre>
+  </body>
+</html>
