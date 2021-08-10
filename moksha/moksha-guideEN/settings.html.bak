@@ -257,15 +257,18 @@
             </tr>
             <tr>
               <td>Search Directories</td>
-              <td>Directory search settings</td>
+              <td><br />
+              </td>
             </tr>
             <tr>
               <td>Battery Meter</td>
-              <td>Battery meter settings</td>
+              <td><br />
+              </td>
             </tr>
             <tr>
               <td>Environment Variables</td>
-              <td>Change/view environment settings</td>
+              <td><br />
+              </td>
             </tr>
             <tr>
               <td colspan="2">
