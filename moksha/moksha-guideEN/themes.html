@@ -1,176 +1,418 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bodhi Guide to Moksha</title>
-        <link href="styles.css" rel="stylesheet" type="text/css" media="screen">
-        <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Bodhi Guide to Moksha</title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2021-08-13T23:13:36.983850381"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; color: #ffffff; font-family: "ubuntu", "Tahoma", "Verdana", "Arial", "Helvetica", sans-serif; line-height: 115%; background: transparent }
+		h1 { margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 24pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 18pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 14pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		td p { color: #ffffff; font-family: "inherit"; line-height: 100%; background: transparent }
+		strong { font-weight: bold }
+		a:link { color: #000080; so-language: zxx; text-decoration: none }
+		a:visited { color: #800000; so-language: zxx; text-decoration: none }
+		em { font-style: italic }
+		code { font-family: "Liberation Mono", monospace }
+	</style>
+</head>
+<body lang="en-GB" text="#ffffff" link="#000080" vlink="#800000" dir="ltr" style="border: none; padding: 0cm">
+<div id="content" dir="ltr"><p style="margin-bottom: 0.53cm"><br/>
+<br/>
 
-        </head>
-    <body>
+	</p>
+	<div id="maincontent" dir="ltr"><h1 style="margin-top: 0cm; margin-bottom: 0.53cm">
+		<font color="#000000">The Bodhi Guide to Moksha<br/>
+Themes</font></h1>
+		<p style="margin-bottom: 0.53cm"><strong><font color="#000000"><span style="font-weight: normal"><font color="#000000">Most
+		new users often don’t realise th</font></span></font></strong><strong><font color="#000000"><font color="#000000"><span style="font-weight: normal">at</span></font></font></strong><strong><font color="#000000"><font color="#000000">
+		</font></font></strong><strong><font color="#000000">Moksha</font></strong><font color="#000000">
+		</font><font color="#000000">prides it’s self on providing </font><font color="#000000">the
+		user </font><font color="#000000">with </font><font color="#000000">a
+		lot of control when it comes to configuring their desktop, </font><font color="#000000">and
+		has many themes available in the Bodhi repo. </font><font color="#000000">
+		It is quite common for </font><strong><font color="#000000">Moksha</font></strong><font color="#000000">
+		users to spend hours tweaking different settings to get it just
+		right. Some of these users </font><font color="#000000">move on to
+		actual theming, which is a whole world of it’s own and there is
+		no scope here to cover it, but </font><font color="#000000">have
+		been kind enough to share their hard work by </font><font color="#000000">sharing
+		themes that they have </font><font color="#000000">creating. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		provide a way to package together all the different options that
+		alter the look of your desktop. This can include everything from
+		the background to the </font><strong><font color="#000000">Clock</font></strong><font color="#000000">
+		<a href="gadgets.html">Gadget</a>, </font><font color="#000000">to
+		the boarder color and everything in between.</font><font color="#000000">
+		</font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Here we will
+		cover the following:</font></p>
+		<ol>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Switching Themes">Switching
+			Themes</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Adding Themes">Adding
+			Themes</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Advanced Themes">Advanced
+			Themes</a> </font>
+			</p>
+			<ol>
+				<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Assigning Themes">Assigning
+				Themes</a> </font>
+				</p>
+				<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Removing Themes">Removing
+				Themes</a> </font>
+				</p>
+				<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Base Theme">Base
+				Theme</a> </font>
+				</p>
+				<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Saving Themes">Saving
+				Themes</a> </font>
+				</p>
+				<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Creating Themes">Creating
+				Themes</a> </font>
+				</p>
+			</ol>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Changing Just the Background">Changing
+			Just the Background</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Other Theme Considerations">Other
+			Theme Considerations</a> </font>
+			</p>
+		</ol>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Switching Themes"></a>
+		<font color="#000000">Switching Themes</font></h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">To see what
+		themes are installed go to </font><font color="#000000"><i>Main
+		Menu →Settings → Theme. </i></font><font color="#000000"><span style="font-style: normal">
+		The standard Bodhi iso, at the time of writing come with two themes
+		by default. Arc Green and Arc Dark. To install more themes, you can
+		use sysnaptic to search and select themes to install, or using apt
+		on te command line.</span></font></p>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
 
-<div id="content">
-	<div id="maincontent">
-	
-<h1>The Bodhi Guide to Moksha<br>
-Themes</h1>
+		</p>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
 
-<p><strong>Moksha</strong> gives the user a lot of 
-control when it comes to configuring their desktop. It is quite common for <strong>Moksha</strong> users to spend hours
-tweaking different settings to get it just right. Some of these
-users have been kind enough to share their hard work by creating <strong>Themes</strong>.
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="font-style: normal">Here
+		is a current list of themes. (13</span></font><font color="#000000"><sup><span style="font-style: normal">th</span></sup></font><font color="#000000"><span style="font-style: normal">
+		august 2021) </span></font><font color="#000000"><span style="font-style: normal"><span style="font-weight: normal">Note,
+		if you want to install themes using apt on the command line, the
+		theme name is prefixed with bodhi-theme-moksha-. For example, to
+		install the vice versa theme you would do – </span></span></font><font color="#000000"><i><span style="font-weight: normal">sudo
+		apt install bodhi-theme-moksha-viceversa.</span></i></font></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">arc - Arc
+		Moksha Theme<br/>
+arc-dark - Arc Dark Moksha Theme<br/>
+arc-green -
+		Arc Green Moksha Theme<br/>
+blingbling - Bodhi BlingBling Theme for
+		Moksha<br/>
+blueelectric - Blue Colored Moksha Theme<br/>
+crema -
+		Colored Moksha Coffee Theme<br/>
+detour - Grey-Blue Colored Moksha
+		Theme<br/>
+e17gtk - GTK theme set for E/Moksha desktop<br/>
+forum -
+		Bodhi Forum Theme for Moksha<br/>
+green - Green theme for
+		Moksha<br/>
+japan - Japanese based Moksha Theme<br/>
+kl4k - Bodhi
+		KL4K Theme for Moksha<br/>
+moonlight - Moonlight Moksha
+		Theme<br/>
+passion - RedPassion Moksha Theme<br/>
+pink - Pink
+		Moksha Theme<br/>
+radiance - Graphite Colored Moksha Theme<br/>
+seven
+		- Windows 7 Moksha Theme<br/>
+sunshine - Sunshine Moksha
+		Theme<br/>
+viceversa - Brown Colored Moksha Theme</font></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">To bring up
+		the</font><strong><font color="#000000"> Theme Selector</font></strong><font color="#000000">
+		</font><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif">to
+		preview themes and other things</font></font><font color="#000000">
+		go to</font><em><font color="#000000"> Main Menu -&gt; Settings -&gt;
+		Settings Panel -&gt; Look -&gt; Theme</font></em><font color="#000000">.
+		(If you do not see this option, you may need to </font><em><font color="#000000">load</font></em><font color="#000000">
+		the </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		<a href="modules.html">Module</a>) </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">This is the
+		Basic view of the </font><strong><font color="#000000">Theme
+		Selector</font></strong><font color="#000000">. </font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><font color="#000000"><img src="../images/e17-guide-themes-basic-view.png" name="Image1" align="bottom" width="75" height="38" border="0"/>
+</font></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The list on
+		the left shows all the available </font><strong><font color="#000000">Themes</font></strong><font color="#000000">.
+		Clicking on one will show a preview of the </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		background on the right. When you find a </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		you like, select it from the list and click </font><em><font color="#000000">OK</font></em><font color="#000000">
+		or </font><em><font color="#000000">Apply</font></em><font color="#000000">.
+		The changes will usually take place immediately. If they don't, try
+		restarting </font><strong><font color="#000000">Moksha</font></strong><font color="#000000">
+		(</font><em><font color="#000000">Main Menu -&gt; About Operating
+		System -&gt; Res</font></em><em><font color="#000000">tar</font></em><em><font color="#000000">t
+		Moksha</font></em><font color="#000000">). </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">You might be
+		wondering what the options </font><em><font color="#000000">Personal</font></em><font color="#000000">
+		and </font><em><font color="#000000">System</font></em><font color="#000000">
+		in the top left of the dialog mean. This simply indicates in what
+		directory the </font><strong><font color="#000000">Theme Selector
+		</font></strong><font color="#000000">is looking for </font><strong><font color="#000000">Themes</font></strong><font color="#000000">.
+		The </font><em><font color="#000000">System</font></em><font color="#000000">
+		option tells it to look in </font><code><font color="#000000">/usr/share/enlightenment/data/themes/</font></code><font color="#000000">.
+		The </font><em><font color="#000000">Personal</font></em><font color="#000000">
+		option points to </font><code><font color="#000000">~/.e/e/themes/</font></code><font color="#000000">.
+		If you are the creative type and want to create your own </font><strong><font color="#000000">Theme</font></strong><font color="#000000">,
+		you can save it here (See </font><strong><a href="creating_themes.html"><font color="#000000">Creating
+		Themes</font></a></strong><font color="#000000">). Also, please
+		consider sharing it with the rest of the </font><strong><font color="#000000">Bodhi
+		Linux</font></strong><font color="#000000"> community. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
 
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Advanced Themes"></a>
+		<font color="#000000">Advanced Themes</font></h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">By now, you
+		probably have tried out several different </font><strong><font color="#000000">Themes</font></strong><font color="#000000">.
+		It's likely that you have found things to like and dislike about
+		several of them, and perhaps you wish you could use the </font><strong><font color="#000000">Menu</font></strong><font color="#000000">
+		from one </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		along with the </font><strong><font color="#000000">Clock</font></strong><font color="#000000">
+		style of another. As mentioned before, the user is in control of
+		their desktop, and the </font><strong><font color="#000000">Theme
+		Selector</font></strong><font color="#000000"> makes it very easy
+		to mix and match different elements from different </font><strong><font color="#000000">Themes</font></strong><font color="#000000">.
+		</font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Open the
+		</font><strong><font color="#000000">Theme Selector</font></strong><font color="#000000">
+		and click on the </font><em><font color="#000000">Advanced</font></em><font color="#000000">
+		button in the bottom right corner. The dialog will expand into
+		three sections. </font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><br/>
+<br/>
 
-<p><strong>Themes</strong> provide a way to package together all the different
-options that alter the look of your desktop. This can include 
-everything from the background to the <strong>Clock</strong> <a href="gadgets.html">Gadget</a>.
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The first
+		section on the left, </font><strong><font color="#000000">Theme
+		Categories</font></strong><font color="#000000">, shows all the
+		different options that can be controlled by </font><strong><font color="#000000">Themes</font></strong><font color="#000000">.
+		The middle section, </font><strong><font color="#000000">Themes</font></strong><font color="#000000">,
+		shows all the available </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		on your computer. The right most section, </font><strong><font color="#000000">Preview</font></strong><font color="#000000">,
+		is a preview window like the one in the Basic view. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">In </font><strong><font color="#000000">Theme
+		Categories</font></strong><font color="#000000">, all the options
+		with a </font><em><font color="#000000">check</font></em><font color="#000000">
+		next to them have an assigned </font><strong><font color="#000000">Theme</font></strong><font color="#000000">.
+		In the </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		section, all </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		with the </font><em><font color="#000000">paintbrush and colors
+		icon</font></em><font color="#000000"> are </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		that have been assigned to at least one category. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Assigning Themes"></a>
+		<font color="#000000">Assign Themes</font></h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">To assign a
+		theme to a category, select the category in the </font><strong><font color="#000000">Theme
+		Categories</font></strong><font color="#000000"> section. Then
+		select the desired </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		from the </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		section, and click the </font><em><font color="#000000">Assign</font></em><font color="#000000">
+		button near the bottom left corner. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">For example,
+		say you like most of the </font><em><font color="#000000">vice-versa</font></em><font color="#000000">
+		</font><strong><font color="#000000">Theme</font></strong><font color="#000000">,
+		except you would prefer to use the </font><strong><font color="#000000">Start</font></strong><font color="#000000">
+		button from </font><em><font color="#000000">moonlight</font></em><font color="#000000">.
+		Open the Advanced </font><strong><font color="#000000">Theme
+		Selector</font></strong><font color="#000000"> dialog, select the
+		</font><em><font color="#000000">modules/start</font></em><font color="#000000">
+		category under </font><strong><font color="#000000">Theme
+		Categories</font></strong><font color="#000000">, select the
+		</font><em><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><i>Vice-versa
+		</i></font></font></em><font color="#000000">theme under </font><strong><font color="#000000">Themes</font></strong><font color="#000000">,
+		and click </font><em><font color="#000000">Assign</font></em><font color="#000000">.
+		You will notice that an icon displays next to the newly assigned
+		category. This indicates the category's </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		has been changed. Changes will not take effect until you click </font><em><font color="#000000">OK</font></em><font color="#000000">
+		or </font><em><font color="#000000">Apply</font></em><font color="#000000">
+		at the bottom of the dialog. You can make assignments to as many
+		categories as you want, and when you are ready, </font><em><font color="#000000">Apply</font></em><font color="#000000">
+		all the changes at once. Using our example, if you go back and look
+		at the </font><em><font color="#000000">modules/start</font></em><font color="#000000">
+		category you should see a </font><em><font color="#000000">check</font></em><font color="#000000">
+		next to it indicating that this category is assigned a </font><strong><font color="#000000">Theme</font></strong><font color="#000000">.
+		Selecting the category will show you what </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		is assigned by automatically selecting it in the </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		section. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Removing Themes"></a>
+		<font color="#000000">Remove Themes</font></h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">If you want
+		to remove an assigned </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		from a category, select the category and click </font><em><font color="#000000">Clear</font></em><font color="#000000">.
+		Alternatively, you can remove all </font><strong><font color="#000000">Themes</font></strong><font color="#000000">
+		by clicking </font><em><font color="#000000">Clear All</font></em><font color="#000000">.
+		Then click </font><em><font color="#000000">OK</font></em><font color="#000000">
+		or </font><em><font color="#000000">Apply</font></em><font color="#000000">
+		to remove the assignment. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Base Theme"></a>
+		<font color="#000000">Base Theme</font></h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">One special
+		category of note is the </font><em><font color="#000000">Base Theme</font></em><font color="#000000">
+		category. If a </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		is assigned to </font><em><font color="#000000">Base Theme</font></em><font color="#000000">,
+		it will apply to all categories defined in the </font><strong><font color="#000000">Theme</font></strong><font color="#000000">.The
+		Basic view of the </font><strong><font color="#000000">Theme
+		Selector</font></strong><font color="#000000"> is actually a
+		streamlined interface for assigning this category. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">No </font><em><font color="#000000">check
+		marks</font></em><font color="#000000"> will show next to affected
+		categories to indicate they are customized, as the result of
+		assigning the </font><em><font color="#000000">Base Theme</font></em><font color="#000000">.
+		This is because assigning a </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		to any of the other categories will override any customizations
+		from the </font><em><font color="#000000">Base Theme</font></em><font color="#000000">.
+		</font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Any category
+		without a </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		assigned (either directly assigned or from the </font><em><font color="#000000">Base
+		Theme</font></em><font color="#000000">) will use the </font><em><font color="#000000">default</font></em><font color="#000000">
+		theme. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Saving Themes"></a>
+		<font color="#000000">Saving Themes</font></h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Now perhaps,
+		you have spent several hours creating a custom </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		by mixing up themes from the Advanced </font><strong><font color="#000000">Theme
+		Selector</font></strong><font color="#000000">. You want to try a
+		new look, but not lose your current </font><strong><font color="#000000">Theme</font></strong><font color="#000000">.
+		At this point, you are probably looking for the </font><em><font color="#000000">Save</font></em><font color="#000000">
+		button, but you won't find it because it does not exist. To get
+		around this, we can use </font><strong><font color="#000000">Profiles</font></strong><font color="#000000">.
+		(Further information in the <a href="profiles.html">Profiles
+		section.</a>) </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">During your
+		first boot of </font><strong><font color="#000000">Bodhi</font></strong><font color="#000000">,
+		you may have been asked to select a </font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		(Bare, Desktop, Fancy, etc.). Or you may have been assigned a
+		default profile. All the changes you have made to your current
+		theme are now a part of that </font><strong><font color="#000000">Profile</font></strong><font color="#000000">.
+		</font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">To open the
+		</font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		dialog, go to </font><em><font color="#000000">Main Menu -&gt;
+		Settings -&gt; Settings Panel -&gt; Settings -&gt; Profiles</font></em><font color="#000000">.
+		This will open the </font><strong><font color="#000000">Profile
+		Selector</font></strong><font color="#000000">. </font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><font color="#000000"><img src="../images/e17-guide-themes-profiles.png" name="Image3" align="bottom" width="75" height="38" border="0"/>
+</font></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Your current
+		</font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		will be selected. Click the </font><em><font color="#000000">Add</font></em><font color="#000000">
+		button at the bottom, and enter a name into the </font><strong><font color="#000000">Add
+		New Profile</font></strong><font color="#000000"> dialog that pops
+		up. Click </font><em><font color="#000000">OK</font></em><font color="#000000">,
+		and your new </font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		will be added to the list of available profiles. Your new </font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		is initially a duplicate of your current </font><strong><font color="#000000">Profile</font></strong><font color="#000000">.
+		</font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Select the
+		new </font><strong><font color="#000000">Profile</font></strong><font color="#000000">
+		and click </font><em><font color="#000000">OK</font></em><font color="#000000">
+		or </font><em><font color="#000000">Apply</font></em><font color="#000000">.
+		</font><strong><font color="#000000">E17</font></strong><font color="#000000">
+		will restart, and you will see the same desktop that you saw before
+		(this is expected because it is a duplicate of your other </font><strong><font color="#000000">Profile</font></strong><font color="#000000">).
+		Now make some changes to your theme and/or layout of your desktop.
+		Go back to the </font><strong><font color="#000000">Profile
+		Selector</font></strong><font color="#000000">, and change back to
+		your old </font><strong><font color="#000000">Profile</font></strong><font color="#000000">.
+		You should see your previous </font><strong><font color="#000000">Theme</font></strong><font color="#000000">
+		and layout. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Creating Themes"></a>
+		<font color="#000000">Creating Themes</font></h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The above
+		method of using </font><strong><font color="#000000">Profiles</font></strong><font color="#000000">
+		is a quick hack and not the </font><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif">way
+		to make an actual</font></font><font color="#000000"> </font><strong><font color="#000000">Theme</font></strong><font color="#000000">.
+		</font><font color="#000000">As mentioned above, t</font><font color="#000000">his
+		topic is beyond the scope of this </font><font color="#000000">document</font><font color="#000000">.
+		</font><font color="#000000">To find out more ask on our forums or
+		on our discord channel.</font></p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Changing Just the Background"></a>
+		<font color="#000000">Change Just the Background</font></h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">If you're
+		interested in changing just the background (wallpaper), here's how.
+		Go to </font><em><font color="#000000">Main Menu -&gt; Settings -&gt;
+		Settings Panel -&gt; Look -&gt; Wallpaper</font></em><font color="#000000">.
+		Uncheck the </font><em><font color="#000000">Use Theme Wallpaper</font></em><font color="#000000">
+		option, and select the background you want. You may need to import
+		the picture if you do not see it initially. Use the </font><em><font color="#000000">Picture</font></em><font color="#000000">
+		dialog to do this. </font>
+		</p>
+		<table width="100%" cellpadding="2" cellspacing="2">
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<font color="#000000">Prev:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<font color="#000000">Contents:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<font color="#000000">Next:</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<a href="module_reference.html"><font color="#000000">Module
+					Reference</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<a href="index.html"><font color="#000000">Index</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<a href="shelves.html"><font color="#000000">Shelves</font></a></p>
+				</td>
+			</tr>
+		</table>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
 
-	<ol>
-  <li><a href="#Switching Themes">Switching Themes</a></li>
-  <li><a href="#Adding Themes">Adding Themes</a></li>
-  <li><a href="#Advanced Themes">Advanced Themes</a></li>
-
-  		<ol>
-    <li><a href="#Assigning Themes">Assigning Themes</a></li>
-    <li><a href="#Removing Themes">Removing Themes</a></li>
-    <li><a href="#Base Theme">Base Theme</a></li>
-    <li><a href="#Saving Themes">Saving Themes</a></li>
-    <li><a href="#Creating Themes">Creating Themes</a></li>
-
-    	</ol>
-  <li><a href="#Changing Just the Background">Changing Just the Background</a></li>
-  <li><a href="#Other Theme Considerations">Other Theme Considerations</a></li>
-  	</ol>
-
-<h2><a name="Switching Themes">Switching Themes</a></h2>
-
-<p>To bring up the<strong> Theme Selector</strong> dialog go to<em> Main Menu -> Settings -> Settings Panel -> Look -> Theme</em>.
- (If you do not see this option, you may need to <em>load</em> the <strong> Theme</strong> <a href="modules.html">Module</a>)
- 
- 
-
-<p>This is the Basic view of the <strong>Theme Selector</strong>.
-
-<center><img src="../images/e17-guide-themes-basic-view.png"></center>
-
-<p>The list on the left shows all the available <strong>Themes</strong>. Clicking on one will show a preview of the <strong>Theme</strong> background on the right. When you find a <strong>Theme</strong> you like, select it from the list and click <em>OK</em> or <em>Apply</em>. The changes will usually take place immediately. If they don't, try restarting <strong>Moksha</strong> (<em>Main Menu -> About Operating System -> Reset Moksha</em>).
-
-
-<p>You might be wondering what the options <em>Personal</em> and <em>System</em> in the top left of the dialog mean. This simply indicates in what directory the <strong>Theme Selector </strong>is looking for <strong>Themes</strong>. The <em>System</em> option tells it to look in <code>/usr/share/enlightenment/data/themes/</code>. The <em>Personal</em> option points to <code>~/.e/e/themes/</code>. If you are the creative type and want to create your own <strong>Theme</strong>, you can save it here (See <a href="creating_themes.html"><strong> Creating Themes</strong></a>). Also, please consider sharing it with the rest
-of the <strong>Bodhi Linux</strong> community.
-
-
-<h2><a name="Adding Themes">Adding Themes</a></h2>
-
-<p>By default, <strong>Bodhi</strong> only comes with a handful of <strong>Themes</strong>. You can download more from <a href="http://www.bodhilinux.com/softwaregroup/themes"> Bodhi's Themes Collection</a> (external link). Click on the name of a theme to display it, then press the <em>Install</em> button. For further information on how to install new themes, see <a href="www.bodhilinux.com/changing-enlightenment-themes">Changing Moksha Themes</a> (external link).
-
-
-<p>Once installed, your new <strong>Themes</strong> should show under the <em>System</em> <strong>Theme</strong> options.
-
-<h2><a name="Advanced Themes">Advanced Themes</a></h2>
-
-<p>By now, you probably have tried out several different <strong>Themes</strong>. It's likely that you have found things to like and dislike about several of them, and perhaps you wish you could use the <strong>Menu</strong> from one <strong>Theme</strong> along with the <strong>Clock</strong> style of another. As mentioned before, the user is in control of their desktop, and the <strong>Theme Selector</strong> makes it very easy to mix and match different elements from different <strong>Themes</strong>.
-
-
-<p>Open the <strong>Theme Selector</strong> and click on the <em>Advanced</em> button in
-the bottom right corner. The dialog will expand into three sections.
-
-<center><img src="../images/e17-guide-themes-advanced-view.png" width="650"></center>
-
-<p>The first section on the left, <strong>Theme Categories</strong>, shows all the different options that can be controlled by <strong>Themes</strong>. The middle section, <strong>Themes</strong>, shows all the available <strong>Themes</strong> on your computer. The right most section, <strong>Preview</strong>, is a preview window like the one in the Basic view.
-
-
-<p>In <strong>Theme Categories</strong>, all the options with a <em>check</em> next to them have an assigned <strong>Theme</strong>. In the <strong>Themes</strong> section, all <strong>Themes</strong> with the <em>paintbrush and colors icon</em> are <strong>Themes</strong> that have been assigned to at least one category.
-
-
-<h3><a name="Assigning Themes">Assign Themes</a></h3>
-
-<p>To assign a theme to a category, select the category in the <strong>Theme Categories</strong> section. Then select the desired <strong>Theme</strong> from the <strong>Themes</strong> section, and click the <em>Assign</em> button near the bottom left corner.
-
-<p>For example, say you like most of the <em>Sky-Bodhi</em> <strong>Theme</strong>, except you would prefer to use the <strong>Start</strong> button from <em>Grayish-Bodhi</em>. Open the Advanced <strong>Theme Selector</strong> dialog, select the <em>modules/start</em> category under <strong>Theme Categories</strong>, select the <em>AL-Grayish-Bodhi</em> theme under <strong>Themes</strong>, and click <em>Assign</em>. You will notice that an icon displays
-next to the newly assigned category. This indicates the category's <strong>Theme</strong> has been changed. Changes will not take effect until you click <em>OK</em> or <em>Apply</em> at the bottom of the dialog. You can make assignments to as many categories as you want, and when you are ready, <em>Apply</em> all the changes at once. Using our example, if you go back and look at the <em>modules/start</em> category you should see a <em>check</em> next to it indicating that this category is assigned a <strong>Theme</strong>. Selecting the category will show you what <strong>Theme</strong> is assigned by automatically selecting it in the <strong>Themes</strong> section.
-
-
-<h3><a name="Removing Themes">Remove Themes</a></h3>
-
-<p>If you want to remove an assigned <strong>Theme</strong> from a category, select the category and click <em>Clear</em>. Alternatively, you can remove all <strong>Themes</strong> by clicking <em>Clear All</em>. Then click <em>OK</em> or <em>Apply</em> to remove the assignment.
-
-
-<h3><a name="Base Theme">Base Theme</a></h3>
-
-<p>One special category of note is the <em>Base Theme</em> category. If a <strong>Theme</strong> is assigned to <em>Base Theme</em>, it will apply to all categories defined in the <strong>Theme</strong>.The Basic view of the <strong>Theme Selector</strong> is actually a streamlined interface for assigning this category.  
-
-
-<p>No <em>check marks</em> will show next to affected categories to indicate they are customized, as the result of assigning the <em>Base Theme</em>. This is because assigning a <strong>Theme</strong> to any of the other categories will override any customizations from the <em>Base Theme</em>. 
-
-<p>Any category without a <strong>Theme</strong> assigned (either directly assigned or 
-from the <em>Base Theme</em>) will use the <em>default</em> theme. 
-
-
-<h3><a name="Saving Themes">Saving Themes</a></h3>
-
-<p>Now perhaps, you have spent several hours creating a custom <strong>Theme</strong>
-by mixing up themes from the Advanced <strong>Theme Selector</strong>. You want
-to try a new look, but not lose your current <strong>Theme</strong>. At this point,
-you are probably looking for the <em>Save</em> button, but you won't find it
-because it does not exist. To get around this, we can use <strong>Profiles</strong>. (Further information in the <a href="profiles.html">Profiles section.</a>)
-
-
-<p>During your first boot of <strong>Bodhi</strong>, you may have been asked to select a <strong>Profile</strong> (Bare,
-Desktop, Fancy, etc.). Or you may have been assigned a default profile. All the changes you have made to your current
-theme are now a part of that <strong>Profile</strong>.
-
-<p>To open the <strong>Profile</strong> dialog, go to <em>Main Menu -> Settings -> Settings Panel -> Settings -> Profiles</em>.
-This will open the <strong>Profile Selector</strong>.
-
-
-<center><img src="../images/e17-guide-themes-profiles.png"></center>
-
-<p>Your current <strong>Profile</strong> will be selected. Click the <em>Add</em> button
-at the bottom, and enter a name into the <strong>Add New Profile</strong> dialog
-that pops up. Click <em>OK</em>, and your new <strong>Profile</strong> will be added 
-to the list of available profiles. Your new <strong>Profile</strong> is initially
-a duplicate of your current <strong>Profile</strong>.
-
-
-<p>Select the new <strong>Profile</strong> and click <em>OK</em> or <em>Apply</em>. <strong>E17</strong> will
-restart, and you will see the same desktop that you saw before (this
-is expected because it is a duplicate of your other <strong>Profile</strong>).
-Now make some changes to your theme and/or layout of your desktop.
-Go back to the <strong>Profile Selector</strong>, and change back to your old <strong>Profile</strong>. You should see your previous <strong>Theme</strong> and layout.
-
-
-<h3><a name="Creating Themes">Creating Themes</a></h3>
-
-<p>The above method of using <strong>Profiles</strong> is a quick hack and not the
-most elegant way to save a <strong>Theme</strong>. The ideal method should be
-to create an actual <strong>Theme</strong>. This topic is beyond the scope of this
-section. Check out <a href="creating_themes.html">Creating Themes</a> sections for instruction on how to do this.
-
-<h2><a name="Changing Just the Background">Change Just the Background</a></h2>
-
-<p>If you're interested in changing just the background (wallpaper), here's how. Go to <em>Main Menu -> Settings -> Settings Panel -> Look -> Wallpaper</em>. Uncheck the <em>Use Theme Wallpaper</em> option, and select the background you want. You may need to import the picture if you do not see it initially. Use the <em>Picture</em> dialog to do this.
-
-<h2><a name="Other Theme Considerations">Other Theme Considerations</a></h2>
-This article has discussed how to customize your <strong>Moksha Theme</strong> and various elements within it. However, many applications in use on Linux systems are built using either the <strong>GTK</strong> or the <strong>QT</strong> toolkit and therefore will not be affected by changes to the <strong>Moksha Theme</strong>. For information on how to control the look of <strong>GTK/QT</strong> applications please see the section <a href="other_settings.html">Other Settings</a>. 
-<hr>
-
-<table width="100%">
-<tr>
-<td align="left" width="33%">Prev:</a></td>
-<td align="center" width="33%"> Contents:</td>
-
-<td align="right" width="33%">Next:</td>
-</tr>
-<tr>
-<td align="left" width="33%"><a href="module_reference.html">Module Reference</a></td>
-<td align="center" width="33%"><a href="index.html">Index</a></td>
-<td align="right" width="33%"><a href="shelves.html">Shelves</a></td>
-</tr>
-</table>
-	
-	
-
-</div>
+		</p>
+	</div>
 </div>
 </body>
 </html>
