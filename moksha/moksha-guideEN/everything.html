@@ -1,352 +1,579 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-    <title>Bodhi Guide to Enlightenment</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
-    <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png" />
-  </head>
-  <body>
-    <div id="content">
-      <div id="maincontent">
-        <h1>The Bodhi Guide to Moksha<br />
-          Everything Module</h1>
-        <br />
-        <ol>
-          <li><a href="#How%20to%20Run%20Everything">How to Run Everything</a></li>
-          <li><a href="#Everything%20Does%20Anything">Everything Does Anything</a></li>
-          <li><a href="#Plugins">Plugins</a><a></a></li>
-          <a>
-          </a>
-          <li><a></a><a href="#Beyond%20Everything">Beyond Everything</a></li>
-          <li><a href="#Keyboard%20Navigation">Keyboard Navigation</a></li>
-        </ol>
-        <br />
-        <p>
-          When the <strong>Enlightenment (E17)</strong> developers hatched this
-          <a href="modules.html">Module</a>, they tried to find a name to
-          describe what it does. All they could think of was <strong>Everything</strong>.
-        </p>
-        <p>
-          In a very small nutshell, <strong>Everything</strong> is a
-          fully-indexed database of all the applications and files on your PC.
-        </p>
-        <center><a href="../images/evry.png"><img src="../images/evry.png" /></a></center>
-        <p>
-          Other operating systems have similar features. Windows has "Desktop
-          Search",  Mac OS X has "Spotlight". If you have been following Linux
-          you are likely familiar with "Gnome-Do". What sets <strong>Everything</strong>
-          apart is its plugin architecture that allows it to go beyond simply
-          finding applications and files.
-        </p>
-        <h2> <a name="How to Run Everything">How to Run Everything</a> </h2>
-        <p>
-          <strong>Everything</strong> is quite sophisticated. Not only because
-          of all it can do, but how easily you can do it. The default method of
-          opening <strong>Everything</strong> is to press <em>Alt+Esc</em>.
-          Then simply start typing what you want to do. As you type, <strong>Everything</strong>
-          will start showing suggestions of what it thinks you want to do. When
-          you see what you want, you can select it and press <em>Enter</em> or
-          double-click it. If you change your mind and want to exit <strong>Everything</strong>,
-          simply press <em>Esc</em> or click somewhere outside the <strong>Everything</strong>
-          window.
-        </p>
-        <p>
-          By default, <strong>Bodhi Linux</strong> also provides <em>Win+Space</em>
-          as a shortcut to <strong>Everything</strong> and you can also access
-          it from the Main Menu, <em>Main Menu -&gt; Run Everything</em>.
-        </p>
-        <p>
-          <strong>Everything</strong> also adapts to your computing habits.
-          Every time you use <strong>Everything</strong> it keeps track of what
-          you do most frequently. Over time your more commonly used files,
-          applications, etc. appear with fewer keystrokes. For example, when you
-          first use <strong>Everything</strong> and simply enter the letter <code>L</code>
-          , you will see several applications in some order such as <strong>Leafpad</strong>,
-          <strong>LXAppearance</strong>, <strong>LXTerminal</strong>, and so
-          on. Now suppose you kept going and typed <code>LXTerminal</code> ,
-          and launched it. After doing this a few times, you will only have to
-          type <code>L</code> and <strong>LXTerminal</strong> will show first.
-        </p>
-        <h2> <a name="Everything Does Anything">Everything Does Anything</a> </h2>
-        Suppose you have a custom bash script called <code>myscript</code> ,
-        and you want to edit it. You fire up <strong>Everything</strong> and
-        type <code>myscript</code> . Now when you select it, how is <strong>Everything</strong>
-        supposed to know whether you want to edit it or run it?
-        <p>
-          If you look at the top of the <strong>Everything</strong> window, you
-          will see two tabs. The first one is the default view that lists the
-          possible matches to your query. The second one is contextual and can
-          change depending on what is selected. It typically shows the various <em>Actions</em>
-          you can perform with the selected item.
-        </p>
-        <p>
-          Back to our <code>myscript</code> example, if you click on the second
-          tab, you will see a list of possible things you can do with your
-          script such as <em>Open with...</em> or <em>Copy to..</em>. It might
-          also list a text editor like <em>Leafpad</em> and an option to <em>Run
-            in Terminal</em>. Choose <em>Leafpad</em> and your script will open
-          for editing.
-        </p>
-        <p>
-          The icing on the cake is that just as <strong>Everything</strong>
-          keeps track of what you select most frequently, it also remembers what
-          you do with them most frequently. So next time, you type <code>myscript</code>
-          into <strong>Everything</strong> the first <em>Action</em> it
-          chooses will likely be to open it in <strong>Leafpad</strong>.
-        </p>
-        <h2> <a name="Plugins">Plugins</a> </h2>
-        <p>
-          As mentioned before, one of <strong>Everything's</strong> most
-          powerful features is its plugin architecture. Everything you see in <strong>Everything</strong>
-          is the result of some plugin. The more commonly used and understood
-          ones are <strong>Applications</strong>, <strong>Files</strong>, and
-          <strong>Recent Files</strong>. If you open <strong>Everything
-            Settings</strong> at <em>Main Menu -&gt; Settings -&gt; All -&gt;
-            Launcher -&gt; Everything Configuration</em>, and choose the <em>Plugins</em>
-          tab, you will see that there are three types of plugins: <em>Subject,
-            Action, </em>and <em>Object</em>. </p>
-        <center><a href="../images/e17-guide-everything-settings-plugins.png"><img
-              src="../images/e17-guide-everything-settings-plugins.png" /></a></center>
-        <p>
-          These are organized by the tabs you see at the top of the <strong>Everything</strong>
-          window. The first tab shows the results from the applicable <em>Subject</em>
-          plugins. The second tab shows any applicable <em>Action</em> plugins,
-          things you can do with the selected <em>Subject</em>. If needed,
-          there will be a third tab that shows the applicable <em>Object</em>
-          plugins, what to perform the selected <em>Action</em> on. (For
-          example, if you select the <em>Copy To...</em> <em>Action</em>, it
-          needs to know where to copy to.) The smaller text in the upper right
-          corner of each tab shows what plugin is generating the current result.
-        </p>
-        <center><a href="../images/e17-guide-everything-window-top-tabs.png"><img
-              src="../images/e17-guide-everything-window-top-tabs.png" /></a></center>
-        <p>
-          Along the bottom of the <strong>Everything</strong> window you can
-          see more tabs showing the available plugins for each type: <em>Subject,
-            Action,</em> or <em>Object</em>. They are also contextual based on
-          what is currently selected. By default, every option from every plugin
-          is shown. The tabs listed at the bottom allow you to filter the
-          choices by plugin.
-        </p>
-        <center><a href="../images/e17-guide-everything-window-bottom-tabs.png"><img
-              src="../images/e17-guide-everything-window-bottom-tabs.png" /></a></center>
-        <h3> Default Plugins </h3>
-        <p>
-        </p>
-        <table cellpadding="5" border="1">
-          <tbody>
-            <tr>
-              <td>
-                <h3>Plugin</h3>
-              </td>
-              <td>
-                <h3>Description</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>Applications</td>
-              <td>As mentioned before, one of the most commonly used and
-                understood plugins is the Applications plugin. This plugin is
-                what allows <strong>Everything</strong> to launch an
-                application.</td>
-            </tr>
-            <tr>
-              <td>Files/Recent Files</td>
-              <td>Also commonly used plugins that lets <strong>Everything</strong>
-                find files and browse the directories on your filesystem.</td>
-            </tr>
-            <tr>
-              <td>Windows</td>
-              <td>Plugin which allows you to manipulate open windows.</td>
-            </tr>
-            <tr>
-              <td>Settings</td>
-              <td>Plugin to find various settings dialogs.</td>
-            </tr>
-            <tr>
-              <td>Exebuf</td>
-              <td>Plugin to run CLI commands.</td>
-            </tr>
-            <tr>
-              <td>Text</td>
-              <td>Simple plugin to copy snippets of text to the clipboard.</td>
-            </tr>
-            <tr>
-              <td>Plugins</td>
-              <td>A plugin to access plugins!</td>
-            </tr>
-          </tbody>
-        </table>
-        <br />
-        <h3> As an application launcher </h3>
-        In the screenshot above, the user has "raised" Everything by entering
-        the <em>key binding</em> (keyboard shortcut) <strong>Alt+Esc</strong>
-        or <strong>Win+Space</strong>. Next, the user entered "E".
-        Just entering "E" causes <strong>Everything</strong> to search its
-        history-sorted database for the most frequently-used applications
-        starting with that letter. It finds several, the first nine of which are
-        displayed with their icons in a grid.
-        But, if the user follows the "E" with a "v", so the command line at the
-        upper left contains "Ev" - the scope of possibilities reduces, so the
-        most probable intended application becomes "Everything Configuration",
-        which is highlighted. Once an application is highlighted, it can be
-        launched simply by double-clicking the icon or by pressing the Return
-        key. Try it!
-        <br />
-        <br />
-        <h2> <a name="Beyond Everything">Beyond Everything</a> </h2>
-        <p>
-          The above plugins are the standard ones that come with <strong>Everything</strong>.
-          You can install additional plugins to enhance the functionality of <strong>Everything</strong>.
-          Below are a few examples.
-        </p>
-        <h3> Calculator </h3>
-        <p>
-          The calculator plugin allows <strong>Everything</strong> to perform
-          the basic functions of a calculator. You will likely see the plugin is
-          already installed. However, the backend it uses is <code>bc</code> ,
-          a GNU arbitrary precision calculator language, that is not installed
-          by default in <strong>Bodhi Linux</strong>. Install <code>bc</code>
-          via <strong>Synaptic</strong> or </p>
-        <p><code>sudo apt-get install bc</code>
-        </p>
-        <p>Then open <strong>Everything</strong> and press <code>=</code> to
-          trigger the calculator plugin. Type <code>=1+2</code> and you will
-          see <code>3</code> listed in the <em>Subject</em> tab.
-        </p>
-        <h3> Search the Web </h3>
-        <p>
-          The <strong>websearch</strong> plugin is actually a collection of
-          plugins that allow you to quickly search the internet. Instead of
-          opening your browser, going to Google, clicking the search box, and
-          entering your search term; run <strong>Everything</strong> then enter
-        </p>
-        <p><code>g (search phrase)</code> </p>
-        <p>and press <em>Enter</em>. Your browser will automatically open and
-          show the result of your Google search.
-        </p>
-        <p>Need to quickly bring up the YouTube video of 'Keyboard Cat'? No
-          problem, open <strong>Everything</strong>, enter </p>
-        <p><code>y keyboard cat</code>
-        </p>
-        <p>and press <em>Enter</em>.
-        </p>
-        <p>You can similarly do Wikipedia searches using the trigger <code>w</code>
-          , and Google translations with the trigger <code>t</code> .
-        </p>
-        <p>To install the <strong>websearch</strong> plugin, search for <code>everything-websearch</code>
-          in <strong>Synaptic</strong> or use
-        </p>
-        <p><code>sudo apt-get install everything-websearch</code></p>
-        <p>Do not forget to load the module after installing.
-        </p>
-        <h2> <a name="Keyboard Navigation">Keyboard Navigation</a> </h2>
-        <p>While you can use your mouse to navigate through <strong>Everything</strong>,
-          <strong>Everything</strong> was designed with the keyboard jockey in
-          mind. Here are the basics.
-        </p>
-        <p>
-        </p>
-        <table cellpadding="5" border="1">
-          <tbody>
-            <tr>
-              <td>
-                <h3>Keys</h3>
-              </td>
-              <td>
-                <h3>Action</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>Tab</td>
-              <td>Cycle through top tabs (<em>Subject, Action, Object</em>)</td>
-            </tr>
-            <tr>
-              <td>up/down/left/right</td>
-              <td>Move through possible choices</td>
-            </tr>
-            <tr>
-              <td>Enter</td>
-              <td>Select item/action</td>
-            </tr>
-            <tr>
-              <td>Ctrl+left/right</td>
-              <td>Move through bottom tabs (plugin filters)</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>If reaching for the arrow keys is appalling to you, there are two
-          options, Vi based (default) and Emacs based, which can be set in <strong>Everything
-            Settings</strong> for faster navigation. </p>
-        <p>
-        </p>
-        <table cellpadding="5" border="1">
-          <tbody>
-            <tr>
-              <td>
-                <h3>Vi</h3>
-              </td>
-              <td>
-                <h3>Emacs</h3>
-              </td>
-              <td>
-                <h3>Action</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>Alt+h</td>
-              <td>Alt+b</td>
-              <td>Move left</td>
-            </tr>
-            <tr>
-              <td>Alt+j</td>
-              <td>Alt+n</td>
-              <td>Move down</td>
-            </tr>
-            <tr>
-              <td>Alt+k</td>
-              <td>Alt+p</td>
-              <td>Move up</td>
-            </tr>
-            <tr>
-              <td>Alt+l</td>
-              <td>Alt+f</td>
-              <td>Move right</td>
-            </tr>
-            <tr>
-              <td>Alt+i</td>
-              <td>Alt+i</td>
-              <td>Cycle through top tabs (<em>Subject, Action, Object</em>)</td>
-            </tr>
-            <tr>
-              <td>Alt+Shift+n</td>
-              <td>Alt+Shift+f</td>
-              <td>Next plugin filter</td>
-            </tr>
-            <tr>
-              <td>Alt+Shift+p</td>
-              <td>Alt+Shift+b</td>
-              <td>Previous plugin filter</td>
-            </tr>
-          </tbody>
-        </table>
-        <hr />
-        <table width="100%">
-          <tbody>
-            <tr>
-              <td width="33%" align="left">Prev:</td>
-              <td width="33%" align="center"> Contents:</td>
-              <td width="33%&quot;" align="right">Next:</td>
-            </tr>
-            <tr>
-              <td width="33%" align="left"><a href="profiles.html">Profiles</a></td>
-              <td width="33%" align="center"><a href="index.html">Index</a></td>
-              <td width="33%" align="right"><a href="compositing.html">Compositing</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Bodhi Guide to Enlightenment</title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2021-08-14T00:14:28.255362644"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; color: #ffffff; font-family: "ubuntu", "Tahoma", "Verdana", "Arial", "Helvetica", sans-serif; line-height: 115%; background: transparent }
+		h1 { margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 24pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 18pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 14pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		td p { color: #ffffff; font-family: "inherit"; line-height: 100%; background: transparent }
+		a:link { color: #000080; so-language: zxx; text-decoration: none }
+		a:visited { color: #800000; so-language: zxx; text-decoration: none }
+		strong { font-weight: bold }
+		em { font-style: italic }
+		code { font-family: "Liberation Mono", monospace }
+	</style>
+</head>
+<body lang="en-GB" text="#ffffff" link="#000080" vlink="#800000" dir="ltr" style="border: none; padding: 0cm">
+<div id="content" dir="ltr"><p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+	</p>
+	<div id="maincontent" dir="ltr"><h1 style="margin-top: 0cm; margin-bottom: 0.53cm">
+		<font color="#000000">The Bodhi Guide to Moksha<br/>
+Quick Launcher</font></h1>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<ol>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#How%20to%20Run%20Everything">How
+			to Run Everything</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Everything%20Does%20Anything">Everything
+			Does Anything</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Plugins">Plugins</a>
+			</font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Beyond%20Everything">Beyond
+			Everything</a> </font>
+			</p>
+			<li><p style="margin-bottom: 0.53cm"><font color="#000000"><a href="#Keyboard%20Navigation">Keyboard
+			Navigation</a> </font>
+			</p>
+		</ol>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Quick
+		Launcher started it’s life as an </font><strong><font color="#000000">E17</font></strong><font color="#000000"><span style="font-weight: normal">
+		</span></font><font color="#000000"><span style="font-weight: normal">module
+		called ‘everything’ Since then it has been tweaked and
+		improved, but the initial idea of being able to find literally
+		everything using a </span></font><font color="#000000">fully-indexed
+		database of all the applications and files on your PC </font><font color="#000000">remains.</font></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Other
+		operating systems have similar features. Windows has &quot;Desktop
+		Search&quot;, Mac OS X has &quot;Spotlight&quot; </font><font color="#000000">Other
+		Window Managers and Desktop Environments have similar tools</font><font color="#000000">.
+		What sets </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> apart is
+		its plugin architecture that allows it to go beyond simply finding
+		applications and files. </font>
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="How to Run Everything"></a>
+		<font color="#000000">How to Run Everything </font>
+		</h2>
+		<p style="margin-bottom: 0.53cm"><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> is quite
+		sophisticated. Not only because of </font><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif">what
+		</font></font><font color="#000000">it can do, but how easily you
+		can do it. The default method of opening </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Laucnher </b></font></font></strong><font color="#000000">is to
+		press </font><em><font color="#000000">Alt+Esc</font></em><font color="#000000">.
+		Then simply start typing what you want to do. As you type, </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> will
+		start showing suggestions of what it thinks you want to do. When
+		you see what you want, you can select it and press </font><em><font color="#000000">Enter</font></em><font color="#000000">
+		or double-click it. If you change your mind and want to exit </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000">, simply
+		press </font><em><font color="#000000">Esc</font></em><font color="#000000">
+		or click somewhere outside the </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> window. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">By default,
+		</font><strong><font color="#000000">Bodhi Linux</font></strong><font color="#000000">
+		also provides </font><em><font color="#000000">Win+Space</font></em><font color="#000000">
+		as a shortcut to </font><strong><font color="#000000">Everything</font></strong><font color="#000000">
+		and you can also access it from </font><em><font color="#000000">Main
+		Menu -&gt; </font></em><em><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><i>Quick
+		Launcher</i></font></font></em><font color="#000000">. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> also
+		adapts to your computing habits. Every time you use it keeps track
+		of what you do most frequently. Over time your more commonly used
+		files, applications, etc. appear with fewer keystrokes. For
+		example, when you first use </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> and
+		simply enter the letter </font><code><font color="#000000">L</font></code><font color="#000000">
+		, you will see several applications in some order such as </font><strong><font color="#000000">Leafpad</font></strong><font color="#000000">,
+		</font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Libreoffice</b></font></font></strong><font color="#000000">,
+		</font><strong><font color="#000000">L</font></strong><strong><font color="#000000">ibremath</font></strong><font color="#000000">,
+		and so on. Now suppose you kept going and typed </font><code><font color="#000000"><font face="Liberation Mono, monospace">Livepatch</font></font></code><font color="#000000">,
+		and launched it. After doing this a few times, you will only have
+		to type </font><code><font color="#000000">L</font></code><font color="#000000">
+		and </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Livepatch</b></font></font></strong><font color="#000000">
+		will show first. </font>
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000"><font face="inherit"><font size="5" style="font-size: 18pt"><b>It
+		Doesn’t Stop There</b></font></font></font><font color="#000000">
+		</font>
+		</h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Suppose you
+		have a custom bash script called </font><code><font color="#000000">myscript.</font></code><code><font color="#000000">sh</font></code><font color="#000000">
+		, and you want to edit it. You fire up </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000"> and type
+		</font><code><font color="#000000">myscript.</font></code><code><font color="#000000">sh</font></code><font color="#000000">
+		. Now when you select it, how is </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">supposed
+		to know whether you want to edit it or run it? </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">If you look
+		at the top of the </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">window,
+		you will see two tabs. The first one is the default view that lists
+		the possible matches to your query. The second one is contextual
+		and can change depending on what is selected. It typically shows
+		the various </font><em><font color="#000000">Actions</font></em><font color="#000000">
+		you can perform with the selected item. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Back to our
+		</font><code><font color="#000000">myscript.</font></code><code><font color="#000000">sh</font></code><font color="#000000">
+		example, if you click on the second tab, you will see a list of
+		possible things you can do with your script such as </font><em><font color="#000000">Open
+		with...</font></em><font color="#000000"> or </font><em><font color="#000000">Copy
+		to..</font></em><font color="#000000">. It might also list a text
+		editor like </font><em><font color="#000000">Leafpad</font></em><font color="#000000">
+		and an option to </font><em><font color="#000000">Run in Terminal</font></em><font color="#000000">.
+		Choose </font><em><font color="#000000">Leafpad</font></em><font color="#000000">
+		and your script will open for editing. </font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The icing on
+		the cake is that just as </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">keeps
+		track of what you select most frequently, it also remembers what
+		you do with them most frequently. So next time, you type
+		</font><code><font color="#000000">myscript.</font></code><code><font color="#000000">sh</font></code><font color="#000000">
+		into </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">the first
+		</font><em><font color="#000000">Action</font></em><font color="#000000">
+		it chooses will likely be to open it in </font><strong><font color="#000000">Leafpad</font></strong><font color="#000000">.
+		</font>
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Plugins"></a>
+		<font color="#000000">Plugins </font>
+		</h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">As mentioned
+		before, one of </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher’s </b></font></font></strong><font color="#000000">most
+		powerful features is its plugin architecture. Everything you see in
+		</font><font color="#000000">it</font><font color="#000000"> is the
+		result of some plugin. The more commonly used and understood ones
+		are </font><strong><font color="#000000">Applications</font></strong><font color="#000000">,
+		</font><strong><font color="#000000">Files</font></strong><font color="#000000">,
+		and </font><strong><font color="#000000">Recent Files</font></strong><font color="#000000">.
+		If you open </font><strong><font color="#000000">Everything
+		Settings</font></strong><font color="#000000"> at </font><em><font color="#000000">Main
+		Menu -&gt; Settings -&gt; </font></em><em><font color="#000000">Settings
+		Panel</font></em><em><font color="#000000"> -&gt; Launcher -&gt;
+		Everything Configuration</font></em><font color="#000000">, and
+		choose the </font><em><font color="#000000">Plugins</font></em><font color="#000000">
+		tab, you will see that there are three types of plugins: </font><em><font color="#000000">Subject,
+		Action, </font></em><font color="#000000">and </font><em><font color="#000000">Object</font></em><font color="#000000">.
+		</font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">These are
+		organized </font><font color="#000000">the same as</font><font color="#000000">
+		the tabs you see at the top of the </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">window.
+		The first tab shows the results from the applicable </font><em><font color="#000000">Subject</font></em><font color="#000000">
+		plugins. The second tab shows any applicable </font><em><font color="#000000">Action</font></em><font color="#000000">
+		plugins, things you can do with the selected </font><em><font color="#000000">Subject</font></em><font color="#000000">.
+		If needed, there will be a third tab that shows the applicable
+		</font><em><font color="#000000">Object</font></em><font color="#000000">
+		plugins, </font><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif">to
+		</font></font><font color="#000000">perform the selected </font><em><font color="#000000">Action</font></em><font color="#000000">
+		on. (For example, if you select the </font><em><font color="#000000">Copy
+		To...</font></em><font color="#000000"> </font><em><font color="#000000">Action</font></em><font color="#000000">,
+		it needs to know where to copy to.) The smaller text in the upper
+		right corner of each tab shows what plugin is generating the
+		current result. </font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">Along the
+		bottom of the </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">window
+		you can see more tabs showing the available plugins for each type:
+		</font><em><font color="#000000">Subject, Action,</font></em><font color="#000000">
+		or </font><em><font color="#000000">Object</font></em><font color="#000000">.
+		They are also contextual based on what is currently selected. By
+		default, every option from every plugin is shown. The tabs listed
+		at the bottom allow you to filter the choices by plugin. </font>
+		</p>
+		<p align="center" style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000">Some
+		Default Plugins </font>
+		</h3>
+		<table cellpadding="5" cellspacing="2">
+			<tr>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Plugin</font></h3>
+				</td>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Description</font></h3>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Applications</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">As mentioned before, one of the most
+					commonly used and understood plugins is the Applications plugin.
+					This plugin is what allows </font><strong><font color="#000000">Everything</font></strong><font color="#000000">
+					to launch an application.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Files/Recent Files</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Also commonly used plugins that lets
+					</font><strong><font color="#000000">Everything</font></strong><font color="#000000">
+					find files and browse the directories on your filesystem.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Windows</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Plugin which allows you to manipulate open
+					windows.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Settings</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Plugin to find various settings dialogs.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Exebuf</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Plugin to run CLI commands.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Text</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Simple plugin to copy snippets of text to
+					the clipboard.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Plugins</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">A plugin to access plugins!</font></p>
+				</td>
+			</tr>
+		</table>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000">As
+		an application launcher </font>
+		</h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">In the
+		screenshot above, the user has &quot;raised&quot; Everything by
+		entering the </font><em><font color="#000000">key binding</font></em><font color="#000000">
+		(keyboard shortcut) </font><strong><font color="#000000">Alt+Esc</font></strong><font color="#000000">
+		or </font><strong><font color="#000000">Win+Space</font></strong><font color="#000000">.
+		Next, the user entered &quot;E&quot;. Just entering &quot;E&quot;
+		causes </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">to search
+		its history-sorted database for the most frequently-used
+		applications starting with that letter. It finds several, the first
+		nine of which are displayed with their icons in a grid. But, if the
+		user follows the &quot;E&quot; with a &quot;v&quot;, so the command
+		line at the upper left contains &quot;Ev&quot; - the scope of
+		possibilities reduces, so the most probable intended application
+		becomes &quot;Everything Configuration&quot;, which is highlighted.
+		Once an application is highlighted, it can be launched simply by
+		double-clicking the icon or by pressing the Return key. Try it! </font>
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Beyond Everything"></a>
+		<font color="#000000">Beyond Everything </font>
+		</h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The above
+		plugins are the standard ones that come with </font><strong><font color="#000000">Everything</font></strong><font color="#000000">.
+		You can install additional plugins to enhance the functionality of
+		</font><strong><font color="#000000">Everything</font></strong><font color="#000000">.
+		Below are a few examples. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000">Calculator
+		</font>
+		</h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The
+		calculator plugin allows </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher </b></font></font></strong><font color="#000000">to
+		perform the basic functions of a calculator. You will likely see
+		the plugin is already installed. </font><font color="#000000">P</font><font color="#000000">ress
+		</font><code><font color="#000000">=</font></code><font color="#000000">
+		to trigger the calculator plugin. Type </font><code><font color="#000000">=1+2</font></code><font color="#000000">
+		and you will see </font><code><font color="#000000">3</font></code><font color="#000000">
+		listed in the </font><em><font color="#000000">Subject</font></em><font color="#000000">
+		tab. </font>
+		</p>
+		<h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">Search
+		the Web </span></font>
+		</h3>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">The
+		</span></font><strong><font color="#000000"><span style="background: #ffff00">websearch</span></font></strong><font color="#000000"><span style="background: #ffff00">
+		plugin is actually a collection of plugins that allow you to
+		quickly search the internet. Instead of opening your browser, going
+		to Google, clicking the search box, and entering your search term;
+		run </span></font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b><span style="background: #ffff00">Quick
+		Launcher </span></b></font></font></strong><font color="#000000"><span style="background: #ffff00">then
+		enter </span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><code><font color="#000000"><span style="background: #ffff00">g
+		(search phrase)</span></font></code><font color="#000000"><span style="background: #ffff00">
+		</span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">and
+		press </span></font><em><font color="#000000"><span style="background: #ffff00">Enter</span></font></em><font color="#000000"><span style="background: #ffff00">.
+		Your browser will automatically open and show the result of your
+		Google search. </span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">Need
+		to quickly bring up the YouTube video of 'Keyboard Cat'? No
+		problem, open </span></font><strong><font color="#000000"><span style="background: #ffff00">Everything</span></font></strong><font color="#000000"><span style="background: #ffff00">,
+		enter </span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><code><font color="#000000"><span style="background: #ffff00">y
+		keyboard cat</span></font></code><font color="#000000"><span style="background: #ffff00">
+		</span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">and
+		press </span></font><em><font color="#000000"><span style="background: #ffff00">Enter</span></font></em><font color="#000000"><span style="background: #ffff00">.
+		</span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">You
+		can similarly do Wikipedia searches using the trigger </span></font><code><font color="#000000"><span style="background: #ffff00">w</span></font></code><font color="#000000"><span style="background: #ffff00">
+		, and Google translations with the trigger </span></font><code><font color="#000000"><span style="background: #ffff00">t</span></font></code><font color="#000000"><span style="background: #ffff00">
+		. </span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">To
+		install the </span></font><strong><font color="#000000"><span style="background: #ffff00">websearch</span></font></strong><font color="#000000"><span style="background: #ffff00">
+		plugin, search for </span></font><code><font color="#000000"><span style="background: #ffff00">everything-websearch</span></font></code><font color="#000000"><span style="background: #ffff00">
+		in </span></font><strong><font color="#000000"><span style="background: #ffff00">Synaptic</span></font></strong><font color="#000000"><span style="background: #ffff00">
+		or use </span></font>
+		</p>
+		<p style="margin-bottom: 0.53cm"><code><font color="#000000"><span style="background: #ffff00">sudo
+		apt-get install everything-websearch</span></font></code></p>
+		<p style="margin-bottom: 0.53cm"><font color="#000000"><span style="background: #ffff00">Do
+		not forget to load the module after installing. </span></font>
+		</p>
+		<h2 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="Keyboard Navigation"></a>
+		<font color="#000000">Keyboard Navigation </font>
+		</h2>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">While you
+		can use your mouse to navigate through </font><strong><font color="#000000"><font face="ubuntu, Tahoma, Verdana, Arial, Helvetica, sans-serif"><b>Quick
+		Launcher</b></font></font></strong><font color="#000000">, </font><font color="#000000">it
+		w</font><font color="#000000">as designed with the keyboard jockey
+		in mind. Here are the basics. </font>
+		</p>
+		<table cellpadding="5" cellspacing="2">
+			<tr>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Keys</font></h3>
+				</td>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Action</font></h3>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Tab</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Cycle through top tabs (</font><em><font color="#000000">Subject,
+					Action, Object</font></em><font color="#000000">)</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">up/down/left/right</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move through possible choices</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Enter</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Select item/action</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Ctrl+left/right</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move through bottom tabs (plugin filters)</font></p>
+				</td>
+			</tr>
+		</table>
+		<p style="margin-bottom: 0.53cm"><font color="#000000">If reaching
+		for the arrow keys is appalling to you, there are two options, Vi
+		based (default) and Emacs based, which can be set in </font><strong><font color="#000000">Everything
+		Settings</font></strong><font color="#000000"> for faster
+		navigation. </font>
+		</p>
+		<table cellpadding="5" cellspacing="2">
+			<tr>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Vi</font></h3>
+				</td>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Emacs</font></h3>
+				</td>
+				<td style="border-top: 1px double #808080; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding: 0.13cm"><h3>
+					<font color="#000000">Action</font></h3>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+h</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+b</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move left</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+j</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+n</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move down</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+k</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+p</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move up</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+l</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+f</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Move right</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+i</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+i</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Cycle through top tabs (</font><em><font color="#000000">Subject,
+					Action, Object</font></em><font color="#000000">)</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+Shift+n</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+Shift+f</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Next plugin filter</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+Shift+p</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Alt+Shift+b</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1px double #808080; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0.13cm; padding-right: 0.13cm"><p>
+					<font color="#000000">Previous plugin filter</font></p>
+				</td>
+			</tr>
+		</table>
+		<hr/>
+
+		<table width="100%" cellpadding="2" cellspacing="2">
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<font color="#000000">Prev:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<font color="#000000">Contents:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<font color="#000000">Next:</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<a href="profiles.html"><font color="#000000">Profiles</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<a href="index.html"><font color="#000000">Index</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<a href="compositing.html"><font color="#000000">Compositing</font></a></p>
+				</td>
+			</tr>
+		</table>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+	</div>
+</div>
+</body>
 </html>

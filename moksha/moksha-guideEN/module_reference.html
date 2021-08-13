@@ -1,602 +1,1526 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-    <title>Bodhi Guide to Enlightenment</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
-    <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png" />
-  </head>
-  <body>
-    <div id="content">
-      <div id="maincontent">
-        <h1> The Bodhi Guide to Moksha<br />
-          Module Reference</h1>
-        <hr />
-        <p> The following Modules are included in a default install of Bodhi
-          Linux 6.0. </p>
-        <hr />
-        <table cellpadding="10" border="2">
-          <tbody>
-            <tr>
-              <td colspan="3">
-                <h2>Utilities</h2>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Module</strong></td>
-              <td><strong>Gadget</strong></td>
-              <td><strong>Description</strong></td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Backlight</td>
-              <td><a href="../images/backlight.png"><img src="../images/backlight.png"
-                    width="50" /></a></td>
-              <td style="vertical-align:middle">Backlight control slider gadget</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Calendar</td>
-              <td><a href="../images/calendar.png"><img src="../images/calendar.png"
-                    width="50" /></a></td>
-              <td style="vertical-align:middle">Calendar sheet showing the
-                current day, mouseover for month</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Clock</td>
-              <td><a href="../images/clock.png"><img src="../images/clock.png" <=""
-                    td="" width="50" /></a></td>
-              <td style="vertical-align:middle">Analog clock</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Engage</td>
-              <td><a href="../images/engage.png"><img src="../images/engage.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Dock that supports compositing
-                and no compositing for the Enlightenment desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">IBar</td>
-              <td><a href="../images/ibar.png"><img src="../images/ibar.png" <=""
-                    td="" width="50" /></a></td>
-              <td style="vertical-align:middle">Iconic application launcher
-                (dock)</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">IBox</td>
-              <td><a href="../images/ibox.png"><img src="../images/ibox.png" <=""
-                    td="" width="50" /></a></td>
-              <td style="vertical-align:middle">A home for your iconic
-                applications</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Pager</td>
-              <td><a href="../images/pager.png"><img src="../images/pager.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to allow you to visualize
-                your Virtual Desktops and the windows they contain</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Shot</td>
-              <td><a href="../images/shot.png"><img src="../images/shot.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Simple screenshot+save/upload
-                Module with Main Menu entry</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Start</td>
-              <td><a href="../images/start.png"><img src="../images/start.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">E17's "Start" button equivalent</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Systray</td>
-              <td><a href="../images/systray2.png"><img src="../images/systray2.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">System tray that holds
-                application icons like Skype, Pidgin, Kopete and others</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">TClock</td>
-              <td><a href="../images/tclock.png"><img src="../images/tclock.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">A digital clock Gadget</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Taskbar</td>
-              <td><a href="../images/taskbar.png"><img src="../images/taskbar.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to provide a taskbar that
-                shows running applications</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>System</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Battery</td>
-              <td><a href="../images/batter.png"><img src="../images/battery.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">A Gadget to visualize your
-                battery status</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Bluetooth Manager</td>
-              <td><a href="../images/bluetooth.png"><img src="../images/bluetooth.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Manage bluetooth devices</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Connection Manager</td>
-              <td><a href="../images/connman.png"><img src="../images/connman.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Control wifi, wired and mobile
-                connections</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">CPUfreq</td>
-              <td><a href="../images/cpufreq.png"><img src="../images/cpufreq.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to monitor and change the
-                CPU frequency</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">DBus Extension</td>
-              <td><a href="../images/dbus.png"><img src="../images/dbus.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Mixer</td>
-              <td><a href="../images/mixer.png"><img src="../images/mixer.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">A module to provide a mixer for
-                changing volume</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Mobile Modems Manager</td>
-              <td><a href="../images/mobilemodemsman.png"><img src="../images/mobilemodemsman.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Control mobile modems</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Places</td>
-              <td><a href="../images/places.png"><img src="../images/places.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Display the status of your
-                drives, mount and unmount/eject them</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Temperature</td>
-              <td><a href="../images/temperature.png"><img src="../images/temperature.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Temperature monitor</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Look</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Composite</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Enlightenment Composite manager</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">DropShadow</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to add dropshadow to
-                windows</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Penguins</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to display fancy penguins
-                walking around your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Scale Windows</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Scale windows down to see them
-                all side by side</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Files</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">EFM (Starter)</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Enlightenment's integrated file
-                manager</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">EFM Operation Info</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Can be placed on the desktop or
-                on a shelf</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Launcher</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything (starter)</td>
-              <td><a href="../images/everything.png"><img src="../images/everything.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">The run command module provides
-                and application launcher dialog</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Core</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Bodhi Close</td>
-              <td><a href="../images/bodhi-close-gadget.png"><img src="../images/bodhi-close-gadget.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to provide quick access
-                to close the currently active application</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Bodhi Shutdown</td>
-              <td><a href="../images/bodhi-shutdown.png"><img src="../images/bodhi-shutdown.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to provide quick access
-                to the shutdown menu</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Gadgets</td>
-              <td><a href="../images/gadgets.png"><img src="../images/gadgets.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to manage Gadgets on the
-                desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Settings Panel</td>
-              <td><a href="../images/settings.png"><img src="../images/settings.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">General Enlightenment
-                configuration panel</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">System Controls</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">This module provides a unified
-                popup dialog for all system actions in Enlightenment</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Window Switcher List</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">A module to show the list of
-                client applications presently running</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Mobile</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Elfe</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Launcher for tablet profile</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">This is a module to make
-                Enlightenment tuned for embedded touchscreen displays such as on
-                phones and web-pads with window always being fullscreen and
-                having a simplified application launcher and manager</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Winlist</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Gadget to provide a window
-                switcher list for Illume</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Bluetooth</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Home</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Home-Toggle</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Indicator</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Keyboard</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Keyboard-Toggle</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Model-Toggle</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume-Softkey</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Illume2</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle"><br />
-              </td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <h2>Settings</h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Applications</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Allows configuration of Ibar,
-                Restart, and Startup Applications</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Dialogs</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Configure default dialog
-                properties</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Edge Bindings</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Configure you edge binding
-                settings here</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Input Control Settings</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Key, Mouse and Button Control
-                settings</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Interaction</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Configure Mouse and Touch input</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Language</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Used to set default language</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Menu Settings</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Configures menu behavior</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Performance</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Used to configure certain
-                performance related items such as frame rates and cache settings</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Screen</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Used to configure your screen</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Search Directories</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Specifies the E17 search paths
-                and default directories</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Shelves</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Shelf configuration dialog</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Theme</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Used to configure your theme
-                preferences</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Wallpaper 2</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Used to pick a wallpaper</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Window Manipulation</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Configures window raise,
-                resistance, and maximize policies</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Window Remembers</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Delete existing window remembers</td>
-            </tr>
-            <tr>
-              <td colspan="3">The following Modules are available to install
-                from the Bodhi Linux repositories.</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">DiskIO</td>
-              <td><a href="../images/diskio.png"><img src="../images/diskio.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to show disk activity</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Mem</td>
-              <td><a href="../images/mem.png"><img src="../images/mem.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Real time memory updates on your
-                E17 desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">News</td>
-              <td><a href="../images/news.png"><img src="../images/news.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">RSS feeds for your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Moon</td>
-              <td><a href="../images/moon.png"><img src="../images/moon.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">View the current cycle of the
-                moon on your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Forecasts</td>
-              <td><a href="../images/forecasts.png"><img src="../images/forecasts.png"
-                    <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Get weather updates on your
-                desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Trash</td>
-              <td><a href="../images/trash.png"><img src="../images/trash.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">A trash module for Enlightenment
-                that uses efreet</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Mail</td>
-              <td><a href="../images/mail.png"><img src="../images/mail.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Check email on your
-                Enlightenment desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">CPU</td>
-              <td><a href="../images/cpu.png"><img src="../images/cpu.png" <=""
-                    a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module for measuring CPU usage</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Snow</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Perfect for winter time. Bring
-                snow and fun to your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Flame</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Set fire to your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Photo</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to display a slideshow on
-                your desktop</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-Tracker</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Search files with tracker (0.8),
-                which also features a music browser</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-MPRIS</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Manage the playlist of MPRIS
-                aware music players (Amarok, Audacious, xmms2, ...)</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-Places</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to extend Run Everything</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-Websearch</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Complete input with suggestions
-                from "Google suggests" and Wikipedia (more to come)</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-Wallpaper</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Module to extend Run Everything</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Everything-Pidgin</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Open chat window or send files
-                to buddies with Pidgin</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Ecomorph</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Compiz port for E17</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">EFM-pathbar</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">EFM file manager extension</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">EFM-nav</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">EFM file manager extension</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">EFM-path</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">EFM file manager extension</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Exalt-client</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Exalt-client Enlightenment
-                module</td>
-            </tr>
-            <tr>
-              <td style="vertical-align:middle">Slideshow</td>
-              <td><a href="../images/"><img src="../images/" <="" a="" width="50" /></a></td>
-              <td style="vertical-align:middle">Enlightenment slideshow module</td>
-            </tr>
-          </tbody>
-        </table>
-        <hr />
-        <table width="100%">
-          <tbody>
-            <tr>
-              <td width="33%" align="left">Prev:</td>
-              <td width="33%" align="center"> Contents:</td>
-              <td width="33%&quot;" align="right">Next:</td>
-            </tr>
-            <tr>
-              <td width="33%" align="left"><a href="modules.html">Modules</a></td>
-              <td width="33%" align="center"><a href="index.html">Index</a></td>
-              <td width="33%" align="right"><a href="themes.html">Themes</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Bodhi Guide to Enlightenment</title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2021-08-14T00:26:32.253175424"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; color: #ffffff; font-family: "ubuntu", "Tahoma", "Verdana", "Arial", "Helvetica", sans-serif; line-height: 115%; background: transparent }
+		h1 { margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 24pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; border: none; padding: 0cm; color: #ffffff; font-family: "inherit"; font-size: 18pt; font-weight: bold; line-height: 100%; background: transparent; page-break-after: avoid }
+		td p { color: #ffffff; font-family: "inherit"; line-height: 100%; background: transparent }
+		strong { font-weight: bold }
+		a:link { color: #000080; so-language: zxx; text-decoration: none }
+		a:visited { color: #800000; so-language: zxx; text-decoration: none }
+	</style>
+</head>
+<body lang="en-GB" text="#ffffff" link="#000080" vlink="#800000" dir="ltr" style="border: none; padding: 0cm">
+<div id="content" dir="ltr"><p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+	</p>
+	<div id="maincontent" dir="ltr"><h1 style="margin-top: 0cm; margin-bottom: 0.53cm">
+		<font color="#000000">The Bodhi Guide to Moksha<br/>
+Module
+		Reference</font></h1>
+		<hr/>
+
+		<p style="margin-bottom: 0.53cm"><font color="#000000">The
+		following Modules are included in a default install of Bodhi Linux
+		6.0. </font>
+		</p>
+		<hr/>
+
+		<table cellpadding="10" cellspacing="2">
+			<tr>
+				<td colspan="3" style="border-top: 1.50pt double #808080; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding: 0.26cm"><h2>
+					<font color="#000000">Utilities</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<strong><font color="#000000">Module</font></strong></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<strong><font color="#000000">Gadget</font></strong></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<strong><font color="#000000">Description</font></strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Backlight</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/backlight.png">
+  <font color="#000080">
+    <img src="../images/backlight.png" name="Image1" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Backlight control slider gadget</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Calendar</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/calendar.png">
+  <font color="#000080">
+    <img src="../images/calendar.png" name="Image2" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Calendar sheet showing the current day,
+					mouseover for month</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Clock</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/clock.png">
+  <font color="#000080">
+    <img src="../images/clock.png" name="Image3" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Analog clock</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Engage</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/engage.png">
+  <font color="#000080">
+    <img src="../images/engage.png" name="Image4" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Dock that supports compositing and no
+					compositing for the Enlightenment desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">IBar</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/ibar.png">
+  <font color="#000080">
+    <img src="../images/ibar.png" name="Image5" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Iconic application launcher (dock)</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">IBox</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/ibox.png">
+  <font color="#000080">
+    <img src="../images/ibox.png" name="Image6" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A home for your iconic applications</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Pager</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/pager.png">
+  <font color="#000080">
+    <img src="../images/pager.png" name="Image7" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to allow you to visualize your
+					Virtual Desktops and the windows they contain</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Shot</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/shot.png">
+  <font color="#000080">
+    <img src="../images/shot.png" name="Image8" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Simple screenshot+save/upload Module with
+					Main Menu entry</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Start</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/start.png">
+  <font color="#000080">
+    <img src="../images/start.png" name="Image9" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">E17's &quot;Start&quot; button equivalent</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Systray</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/systray2.png">
+  <font color="#000080">
+    <img src="../images/systray2.png" name="Image10" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">System tray that holds application icons
+					like Skype, Pidgin, Kopete and others</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">TClock</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/tclock.png">
+  <font color="#000080">
+    <img src="../images/tclock.png" name="Image11" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A digital clock Gadget</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Taskbar</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/taskbar.png">
+  <font color="#000080">
+    <img src="../images/taskbar.png" name="Image12" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to provide a taskbar that shows
+					running applications</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">System</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Battery</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/batter.png">
+  <font color="#000080">
+    <img src="../images/battery.png" name="Image13" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A Gadget to visualize your battery status</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Bluetooth Manager</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/bluetooth.png">
+  <font color="#000080">
+    <img src="../images/bluetooth.png" name="Image14" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Manage bluetooth devices</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Connection Manager</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/connman.png">
+  <font color="#000080">
+    <img src="../images/connman.png" name="Image15" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Control wifi, wired and mobile connections</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">CPUfreq</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/cpufreq.png">
+  <font color="#000080">
+    <img src="../images/cpufreq.png" name="Image16" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to monitor and change the CPU
+					frequency</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">DBus Extension</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/dbus.png">
+  <font color="#000080">
+    <img src="../images/dbus.png" name="Image17" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Mixer</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/mixer.png">
+  <font color="#000080">
+    <img src="../images/mixer.png" name="Image18" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A module to provide a mixer for changing
+					volume</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Mobile Modems Manager</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/mobilemodemsman.png">
+  <font color="#000080">
+    <img src="../images/mobilemodemsman.png" name="Image19" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Control mobile modems</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Places</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/places.png">
+  <font color="#000080">
+    <img src="../images/places.png" name="Image20" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Display the status of your drives, mount
+					and unmount/eject them</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Temperature</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/temperature.png">
+  <font color="#000080">
+    <img src="../images/temperature.png" name="Image21" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Temperature monitor</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Look</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Composite</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image22" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Enlightenment Composite manager</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">DropShadow</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image23" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to add dropshadow to windows</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Penguins</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image24" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to display fancy penguins walking
+					around your desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Scale Windows</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image25" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Scale windows down to see them all side by
+					side</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Files</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM (Starter)</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image26" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Enlightenment's integrated file manager</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM Operation Info</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image27" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Can be placed on the desktop or on a shelf</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Launcher</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><font face="inherit">Quick Launcher</font></font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/everything.png">
+  <font color="#000080">
+    <img src="../images/everything.png" name="Image28" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">The run command module provides and
+					application launcher dialog</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Core</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Bodhi Close</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/bodhi-close-gadget.png">
+  <font color="#000080">
+    <img src="../images/bodhi-close-gadget.png" name="Image29" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to provide quick access to close
+					the currently active application</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Bodhi Shutdown</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/bodhi-shutdown.png">
+  <font color="#000080">
+    <img src="../images/bodhi-shutdown.png" name="Image30" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to provide quick access to the
+					shutdown menu</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadgets</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/gadgets.png">
+  <font color="#000080">
+    <img src="../images/gadgets.png" name="Image31" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to manage Gadgets on the desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Settings Panel</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/settings.png">
+  <font color="#000080">
+    <img src="../images/settings.png" name="Image32" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">General Enlightenment configuration panel</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">System Controls</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image33" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">This module provides a unified popup
+					dialog for all system actions in Enlightenment</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Window Switcher List</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image34" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A module to show the list of client
+					applications presently running</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Mobile</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Elfe</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image35" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Launcher for tablet profile</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image36" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">This is a module to make Enlightenment
+					tuned for embedded touchscreen displays such as on phones and
+					web-pads with window always being fullscreen and having a
+					simplified application launcher and manager</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Winlist</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image37" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Gadget to provide a window switcher list
+					for Illume</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Bluetooth</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image38" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Home</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image39" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Home-Toggle</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image40" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Indicator</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image41" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Keyboard</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image42" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Keyboard-Toggle</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image43" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Model-Toggle</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image44" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume-Softkey</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image45" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Illume2</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image46" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<br/>
+
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><h2>
+					<font color="#000000">Settings</font></h2>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Applications</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image47" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Allows configuration of Ibar, Restart, and
+					Startup Applications</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Dialogs</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image48" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Configure default dialog properties</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Edge Bindings</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image49" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Configure you edge binding settings here</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Input Control Settings</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image50" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Key, Mouse and Button Control settings</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Interaction</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image51" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Configure Mouse and Touch input</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Language</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image52" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Used to set default language</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Menu Settings</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image53" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Configures menu behavior</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Performance</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image54" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Used to configure certain performance
+					related items such as frame rates and cache settings</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Screen</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image55" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Used to configure your screen</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Search Directories</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image56" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Specifies the E17 search paths and default
+					directories</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Shelves</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image57" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Shelf configuration dialog</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Theme</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image58" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Used to configure your theme preferences</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Wallpaper 2</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image59" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Used to pick a wallpaper</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Window Manipulation</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image60" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Configures window raise, resistance, and
+					maximize policies</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Window Remembers</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image61" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Delete existing window remembers</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">The following Modules are available to
+					install from the Bodhi Linux repositories.</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">DiskIO</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/diskio.png">
+  <font color="#000080">
+    <img src="../images/diskio.png" name="Image62" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to show disk activity</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Mem</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/mem.png">
+  <font color="#000080">
+    <img src="../images/mem.png" name="Image63" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Real time memory updates on your E17
+					desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">News</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/news.png">
+  <font color="#000080">
+    <img src="../images/news.png" name="Image64" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">RSS feeds for your desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Moon</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/moon.png">
+  <font color="#000080">
+    <img src="../images/moon.png" name="Image65" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">View the current cycle of the moon on your
+					desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Forecasts</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/forecasts.png">
+  <font color="#000080">
+    <img src="../images/forecasts.png" name="Image66" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Get weather updates on your desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Trash</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/trash.png">
+  <font color="#000080">
+    <img src="../images/trash.png" name="Image67" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">A trash module for Enlightenment that uses
+					efreet</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Mail</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/mail.png">
+  <font color="#000080">
+    <img src="../images/mail.png" name="Image68" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Check email on your Enlightenment desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">CPU</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images/cpu.png">
+  <font color="#000080">
+    <img src="../images/cpu.png" name="Image69" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module for measuring CPU usage</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Snow</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image70" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Perfect for winter time. Bring snow and
+					fun to your desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Flame</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image71" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Set fire to your desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Photo</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image72" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to display a slideshow on your
+					desktop</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-Tracker</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image73" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Search files with tracker (0.8), which
+					also features a music browser</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-MPRIS</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image74" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Manage the playlist of MPRIS aware music
+					players (Amarok, Audacious, xmms2, ...)</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-Places</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image75" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to extend Run Everything</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-Websearch</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image76" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Complete input with suggestions from
+					&quot;Google suggests&quot; and Wikipedia (more to come)</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-Wallpaper</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image77" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Module to extend Run Everything</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Everything-Pidgin</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image78" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Open chat window or send files to buddies
+					with Pidgin</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Ecomorph</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image79" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Compiz port for E17</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM-pathbar</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image80" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM file manager extension</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM-nav</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image81" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM file manager extension</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM-path</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image82" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">EFM file manager extension</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Exalt-client</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image83" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1px double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Exalt-client Enlightenment module</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top: none; border-bottom: 1.50pt double #808080; border-left: 1.50pt double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Slideshow</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1.50pt double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000"><a href="../images">
+  <font color="#000080">
+    <img src="../images" name="Image84" align="bottom" width="50" height="38" border="1"/>
+  </font>
+</a>
+</font></p>
+				</td>
+				<td style="border-top: none; border-bottom: 1.50pt double #808080; border-left: 1px double #808080; border-right: 1.50pt double #808080; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0.26cm; padding-right: 0.26cm"><p>
+					<font color="#000000">Enlightenment slideshow module</font></p>
+				</td>
+			</tr>
+		</table>
+		<hr/>
+
+		<table width="100%" cellpadding="2" cellspacing="2">
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<font color="#000000">Prev:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<font color="#000000">Contents:</font></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<font color="#000000">Next:</font></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="33%" style="border: none; padding: 0cm"><p align="left">
+					<a href="modules.html"><font color="#000000">Modules</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="center">
+					<a href="index.html"><font color="#000000">Index</font></a></p>
+				</td>
+				<td width="33%" style="border: none; padding: 0cm"><p align="right">
+					<a href="themes.html"><font color="#000000">Themes</font></a></p>
+				</td>
+			</tr>
+		</table>
+		<p style="margin-bottom: 0.53cm"><br/>
+<br/>
+
+		</p>
+	</div>
+</div>
+</body>
 </html>
