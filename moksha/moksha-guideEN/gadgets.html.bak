@@ -21,7 +21,7 @@
 		a:visited { color: #800000; so-language: zxx; text-decoration: none }
 	</style>
   </head>
-  <body dir="ltr" style=" border: medium none; padding: 0cm; color: white;" vlink="#800000"
+  <body dir="ltr" style="border: none; padding: 0cm" vlink="#800000" text="#ffffff"
     link="#000080" lang="en-GB">
     <div id="content" dir="ltr">
       <p style="margin-bottom: 0.53cm"><br>
@@ -65,7 +65,8 @@
                 <p> <font color="#000080"><a href="../images/calendar.png"> <font
                         color="#000080"> <img src="../images/calendar.jpg" name="Image1"
                           border="1" width="181" height="112" align="bottom"> </font>
-                    </a> <a href="../images/calendar.png"> </a></font> </p>
+                    </a>
+                    <a href="../images/calendar.png"> </a></font> </p>
               </td>
             </tr>
             <tr>
@@ -80,7 +81,8 @@
                 <p> <font color="#000080"><a href="../images/forcast.jpg"> <font
                         color="#000080"> <img src="../images/forcast.jpg" name="Image1"
                           border="1" width="181" height="112" align="bottom"> </font>
-                    </a> </font> </p>
+                    </a>
+                  </font> </p>
               </td>
             </tr>
             <tr>
@@ -95,7 +97,8 @@
                   </a><font color="#000080"><a href="../images/pager.jpg"> <font
                         color="#000080"> <img src="../images/pager.jpg" name="Image1"
                           border="1" width="181" height="112" align="bottom"> </font>
-                    </a> </font> </p>
+                    </a>
+                  </font> </p>
               </td>
             </tr>
           </tbody>
@@ -121,20 +124,18 @@
         <p style="margin-bottom: 0.53cm" align="center"><font color="#000000"><img
               src="../images/Desktop-gadgets.jpg" name="Image5" border="0" width="75"
               height="38" align="bottom"> </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">Select <strong>Background
-              </strong>and click <strong>Configure Layer, </strong>then select
-            a </font><strong><font color="#000000">Gadget</font></strong><font
-            color="#000000"> in the list, and press </font><em><font color="#000000">Add
-              Gadget</font></em><font color="#000000">. The </font><strong><font
-              color="#000000">Gadget</font></strong><font color="#000000">
-            appears at the top left of the desktop with a blue crosshatching,
-            indicating it can be moved and resized to your requirements. When
-            the </font><strong><font color="#000000">Gadget</font></strong><font
+        <p style="margin-bottom: 0.53cm"><font color="#000000">Select a </font><strong><font
+              color="#000000">Gadget</font></strong><font color="#000000"> in
+            the list, and press </font><em><font color="#000000">Add Gadget</font></em><font
+            color="#000000">. The </font><strong><font color="#000000">Gadget</font></strong><font
+            color="#000000"> appears at the top left of the desktop with a blue
+            crosshatching, indicating it can be moved and resized to your
+            requirements. When the </font><strong><font color="#000000">Gadget</font></strong><font
             color="#000000"> is in the proper place, </font><em><font color="#000000">right-click</font></em><font
             color="#000000"> the </font><strong><font color="#000000">Gadget</font></strong><font
             color="#000000"> to lock it. </font> </p>
         <p style="margin-bottom: 0.53cm" align="center"><font color="#000000"><img
-              src="../images/Add-gadget-desktop.jpg" name="Image6" border="0" width="75"
+              src="../images/gadget-manager.png" name="Image6" border="0" width="75"
               height="38" align="bottom"> </font> </p>
         <h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000">Adding
             a Gadget to a Shelf</font></h3>
