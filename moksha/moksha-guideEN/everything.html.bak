@@ -206,9 +206,10 @@
           They are also contextual based on what is currently selected. By
           default, every option from every plugin is shown. The tabs listed at
           the bottom allow you to filter the choices by plugin.</font><br>
-      </div>
+        </div>
       <div>
-        <h2 style="margin-top: 0cm; margin-bottom: 0.53cm">Some Default plugins</h2>
+        <h2 style="margin-top: 0cm; margin-bottom: 0.53cm">Some
+          Default plugins</h2>
         <table cellspacing="2" cellpadding="5">
           <tbody>
             <tr>
