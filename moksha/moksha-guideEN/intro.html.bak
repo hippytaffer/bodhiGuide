@@ -20,7 +20,7 @@
 		a:visited { color: #800000; so-language: zxx; text-decoration: none }
 	</style>
   </head>
-  <body dir="ltr" style=" border: medium none; padding: 0cm; color: white;" vlink="#800000"
+  <body dir="ltr" style="border: medium none; padding: 0cm; color: white;" vlink="#800000"
     link="#000080" lang="en-GB">
     <div id="content" dir="ltr">
       <p style="margin-bottom: 0.53cm"><br>
@@ -54,11 +54,11 @@
             for being friendly and welcoming.</font></p>
         <p style="margin-bottom: 0.53cm" align="center"><font color="#000000"><img
               src="../images/Bodhi-example1.jpg" name="Image1" alt="Bodhi Example 1"
-              border="0" width="350" height="191" align="bottom"> <img src="../images/forums.jpg"
-              name="Image2" alt="Bodhi Example 2" border="0" width="350" height="191"
-              align="bottom"> </font> </p>
+              border="0" width="350" height="191" align="bottom"> <img
+              src="../images/forums.jpg" name="Image2" alt="Bodhi Example 2"
+              border="0" width="350" height="191" align="bottom"> </font> </p>
         <p style="margin-bottom: 0.53cm" align="center"><font color="#000000"><img
-              src="../images/team.jpg" name="Image3" alt="Bodhi Example 3"
+              src="../images/bodhi-linux-example3.png" name="Image3" alt="Bodhi Example 3"
               border="0" width="350" height="191" align="bottom"> </font> </p>
         <h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><font color="#000000">What
             is a Window Manager</font></h3>
