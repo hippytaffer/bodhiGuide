@@ -1,11 +1,4 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-      title="Wrap Long Lines">
-  </head>
-  <body>
-    <pre>/* ---------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------
  *  FILE:        Styles.css
  *  DESCRIPTION: Global Stylesheet for www.bodhilinux.com
  *  AUTHORS:     Jason Peel, Ken LaBuda, et al, Joris van Dijk.
@@ -65,6 +58,25 @@
          url('font/ubuntu-r-webfont.ttf') format('truetype'),
          url('font/ubuntu-r-webfont.svg#UbuntuRegular') format('svg');
 }
+
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --accent: #419236;
+    --link-color: #333333;
+    --link-hover: #990000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #333333;
+        --fg: #ffffff;
+        --accent: #419236;
+        --link-color: #cccccc;
+        --link-hover: #ffaaaa;
+    }
+}
+
 html, body, div {
     margin: 0;
     padding: 0;
@@ -78,7 +90,8 @@ html, body, div {
 }
 
 body {
-    color: #000000;
+    color: var(--fg);
+    background-color: var(--bg);
     font-family: "ubuntu", Tahoma, Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -127,10 +140,14 @@ td {
  *  GLOBAL &gt; CLASSES
  * ----------------------------------------------------------------------------
  */
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: underline}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: var(--link-color);
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--link-hover);
+}
 
 
 /* ----------------------------------------------------------------------------
@@ -172,11 +189,11 @@ A:hover {text-decoration: underline}
 }
 
 a.mainlink:link, a.mainlink:visited, a.mainlink:active {
-    color: #333;
+    color: var(--link-color);
 }
 
 a.mainlink:hover {
-    color: #900;
+    color: var(--link-hover);
 }
 
 
@@ -187,7 +204,7 @@ a.mainlink:hover {
  */
 #content {
     margin-bottom: 20px;
-    colour: black;
+    color: var(--fg);
     height: auto;
     width: 960px;
     display: block;
@@ -221,7 +238,7 @@ a.mainlink:hover {
     padding-right: 30px;
     padding-top: 25px;
     padding-bottom: 20px;
-    color: #000000;
+    color: var(--fg);
     height: auto;
     
 }
@@ -231,7 +248,7 @@ a.mainlink:hover {
     font-size: 36px;
     margin-bottom: 15px;
     padding-top: 10px;
-    color: #419236;
+    color: var(--accent);
 }
 
 #content #maincontent h2 {
@@ -239,7 +256,7 @@ a.mainlink:hover {
     font-size: 24px;
     margin-bottom: 5px;
     padding-top: 5px;
-    color: #419236;
+    color: var(--accent);
 }
 
 #content #maincontent h3 {
@@ -247,7 +264,7 @@ a.mainlink:hover {
     font-size: 16px;
     margin-bottom: 15px;
     padding-top: 5px;
-    color: #419236;
+    color: var(--accent);
 }
 
 #content #maincontent h5 {
@@ -263,13 +280,13 @@ a.mainlink:hover {
     font-size: 16px;
     margin-bottom:0px;
     padding-top: 5px;
-    color: #419236;
+    color: var(--accent);
 }
 #content #maincontent h7 {
     font-family: Ubuntu; /* no .ttf */
     margin-bottom:0px;
     padding-top: 5px;
-    color: #419236;
+    color: var(--accent);
 }
 /* ----------------------------------------------------------------------------
  *  ADDITIONS &gt; CODE TAGS
@@ -282,7 +299,7 @@ a.mainlink:hover {
    border-color:#000;
    padding: 3px;
    margin:5px;
-   background-color:#419236;
+   background-color:var(--accent);
 }
 
 /* ----------------------------------------------------------------------------
@@ -299,6 +316,3 @@ li {
 li span {
     font-size: 0.25em;
 }
-</pre>
-  </body>
-</html>
