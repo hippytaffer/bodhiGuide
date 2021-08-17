@@ -1,8 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Bodhi Guide to Moksha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png">
   </head>
@@ -13,129 +14,108 @@
         <p><br>
         </p>
         <hr>
-        <p style="margin-bottom: 0.53cm"><strong><font color="#000000">Compositing</font></strong><font
-            color="#000000"> is a feature which adds extra “eye-candy” for your
-            desktop. There are 2 methods to achieve </font><strong><font color="#000000">Compositing</font></strong><font
-            color="#000000"> in the </font><strong><font color="#000000">Bodhi
-              Linux Moksha</font></strong><font color="#000000"> window manager.
-            This article will explain what </font><strong><font color="#000000">Compositing</font></strong><font
-            color="#000000"> is and does, and describe the two methods for
-            utilizing it in </font><strong><font color="#000000">Moksha</font></strong><font
-            color="#000000">. </font> </p>
-        <h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="what_is_compositing"></a>
+        <p><strong>Compositing</strong> is a feature which adds extra “eye-candy” for your
+            desktop. There are 2 methods to achieve <strong>Compositing</strong> in the <strong>Bodhi
+              Linux Moksha</strong> window manager.
+            This article will explain what <strong>Compositing</strong> is and does, and describe the two methods for
+            utilizing it in <strong>Moksha</strong>.  </p>
+        <h3><a name="what_is_compositing"></a>
           What is Compositing?</h3>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">It may be useful
+        <p>It may be useful
             to start with the definition of the root word “composite” from <a href="http://www.thefreedictionary.com/composite"
-              target="_blank">The Free Dictionary</a> online: </font> </p>
-        <pre style="margin-bottom: 0.53cm"><font color="#000000">Made up of distinct components; compound.</font></pre>
-        <p style="margin-bottom: 0.53cm"> <font color="#000000">This applies to
+              target="_blank">The Free Dictionary</a> online:  </p>
+        <pre>Made up of distinct components; compound.</pre>
+        <p> This applies to
             a window manager in the sense that disparate visual elements can be
             combined to create a variety of visual effects. These include (but
             are not limited to): transparency, 3D effects, bending, scaling, and
-            rotation. </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">There is a
-            thorough article of the history and implementation of </font><strong><font
-              color="#000000">Compositing</font></strong><font color="#000000">
+            rotation.  </p>
+        <p>There is a
+            thorough article of the history and implementation of <strong>Compositing</strong>
             on <a href="http://en.wikipedia.org/wiki/Compositing_window_manager"
-              target="_blank">Wikipedia</a> for readers who are interested. </font>
+              target="_blank">Wikipedia</a> for readers who are interested. 
         </p>
         <h3 style="margin-top: 0cm; margin-bottom: 0.53cm"><a name="default_compositing"></a>
           Compositing</h3>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">There is a </font><strong><font
-              color="#000000">Moksha</font></strong><font color="#000000"> <a href="modules.html">Module</a>
-            for </font><strong><font color="#000000">Compositing</font></strong><font
-            color="#000000"> that is NOT installed by default in </font><strong><font
-              color="#000000">Bodhi Linux</font></strong><font color="#000000">.
-            It is called </font><strong><font color="#000000">moksha-module-comptonmod</font></strong><font
-            color="#000000">, and uses picom. You can install
+        <p>There is a <strong>Moksha</strong> <a href="modules.html">Module</a>
+            for <strong>Compositing</strong> that is NOT installed by default in <strong>Bodhi Linux</strong>.
+            It is called <strong>moksha-module-comptonmod</strong>, and uses picom. You can install
             moksha-module-comptonmod from the <a href="https://www.bodhilinux.com/a/"
-              target="_blank">appcentre</a>, or in a terminal. </font> </p>
-        <pre style="margin-bottom: 0.53cm"><font color="#000000">sudo apt install moksha-module-comptonmod</font></pre>
-        <p style="margin-bottom: 0.53cm"> <font color="#000000">To enable the
-            module, simply go to </font><em><font color="#000000">Main Menu →
-              Settings → Modules</font></em><font color="#000000"> and you will
-            find it under the </font><em><font color="#000000">Look</font></em><font
-            color="#000000"> tab. </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">This </font><strong><font
-              color="#000000">Compositing</font></strong><font color="#000000">
+              target="_blank">appcentre</a>, or in a terminal.  </p>
+        <pre>sudo apt install moksha-module-comptonmod</pre>
+        <p> To enable the
+            module, simply go to <em>Main Menu →
+              Settings → Modules</em> and you will
+            find it under the <em>Look</em> tab.  </p>
+        <p>This <strong>Compositing</strong>
             does two primary things. The first is to allow transparent/opaque
             window effects. In general this will be applied to
             inactive/non-focused windows. In the screenshot below you can see
             that Thunar File Manager is not the focused window and the desktop
-            background can be partially seen through it (Bodhi logo). </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">Also, </font><font
-            color="#000000"><u>some</u></font><font color="#000000">
+            background can be partially seen through it (Bodhi logo).  </p>
+        <p>Also, <u>some</u>
             applications (terminal apps notably, but not all of them) also
             support transparency while active/focused. The screenshot also shows
             LXTerminal running and focused but you are still able to see the
             Midori window behind it and the desktop. The “depth” of the
             transparency in such a application will be set in that application's
-            preferences (location of which will vary by application) and </font><strong><font
-              color="#000000">not</font></strong><font color="#000000"> in some
-            general </font><strong><font color="#000000">Compositing</font></strong><font
-            color="#000000"> setting. </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">Note that in </font><font
-            color="#000000"><u>some</u></font><font color="#000000"> </font><strong><font
-              color="#000000">Themes</font></strong><font color="#000000"> a </font><strong><font
-              color="#000000">Composite</font></strong><font color="#000000">
-            setting will need to be switched to active transparency. Go to </font><em><font
-              color="#000000">Main Menu -&gt; Settings -&gt; All -&gt; Look
-              -&gt; Composite</font></em><font color="#000000">. In the lower
-            part of the window, with the </font><em><font color="#000000">Default</font></em><font
-            color="#000000"> tab activated, switch to the "Still" setting, click
-          </font><em><font color="#000000">Apply</font></em><font color="#000000">
-            then </font><em><font color="#000000">OK</font></em><font color="#000000">
-          </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">The other effect,
+            preferences (location of which will vary by application) and <strong>not</strong> in some
+            general <strong>Compositing</strong> setting.  </p>
+        <p>Note that in <u>some</u> <strong>Themes</strong> a <strong>Composite</strong>
+            setting will need to be switched to active transparency. Go to <em>Main Menu -&gt; Settings -&gt; All -&gt; Look
+              -&gt; Composite</em>. In the lower
+            part of the window, with the <em>Default</em> tab activated, switch to the "Still" setting, click
+          <em>Apply</em>
+            then <em>OK</em>
+           </p>
+        <p>The other effect,
             which can't be captured in a screenshot, is causing windows to be
             “bouncy” when switching. This gives a nice visual cue about which
-            window you have switched to when multiple windows are open. </font>
+            window you have switched to when multiple windows are open. 
         </p>
         <h3> Getting Rid of "Bouncy" Windows</h3>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">Many users like
+        <p>Many users like
             the general effects of Compositing while at the same time disliking
-            the “bouncy” effect that occurs when switching windows. </font> </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">To disable this
+            the “bouncy” effect that occurs when switching windows.  </p>
+        <p>To disable this
             effect, go to <i>Main Menu → Settings → Settings Panel&nbsp; → Look
-              → Compositing</i>. </font> </p>
-        <p style="margin-bottom: 0.53cm" align="center"><br>
+              → Compositing</i>.  </p>
+        <p align="center"><br>
           <br>
         </p>
-        <p style="margin-bottom: 0.53cm"><font color="#000000">In the lower part
-            of the window, select anything OTHER than </font><em><font color="#000000">default</font></em><font
-            color="#000000">, click </font><em><font color="#000000">Apply</font></em><font
-            color="#000000"> and you will no longer have “bouncy” windows. </font>
+        <p>In the lower part
+            of the window, select anything OTHER than <em>default</em>, click <em>Apply</em> and you will no longer have “bouncy” windows. 
         </p>
         <hr>
         <table cellspacing="2" cellpadding="2" width="100%">
           <tbody>
             <tr>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="left"> <font color="#000000">Prev:</font></p>
+              <td width="33%">
+                <p align="left"> Prev:</p>
               </td>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="center"> <font color="#000000">Contents:</font></p>
+              <td width="33%">
+                <p align="center"> Contents:</p>
               </td>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="right"> <font color="#000000">Next:</font></p>
+              <td width="33%">
+                <p align="right"> Next:</p>
               </td>
             </tr>
             <tr>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="left"> <a href="everything.html"><font color="#000000">Everything
-                      Module</font></a></p>
+              <td width="33%">
+                <p align="left"> <a href="everything.html">Everything
+                      Module</a></p>
               </td>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="center"> <a href="index.html"><font color="#000000">Index</font></a></p>
+              <td width="33%">
+                <p align="center"> <a href="index.html">Index</a></p>
               </td>
-              <td style="border: none; padding: 0cm" width="33%">
-                <p align="right"> <a href="key_bindings.html"><font color="#000000">Key
-                      Bindings</font></a></p>
+              <td width="33%">
+                <p align="right"> <a href="key_bindings.html">Key
+                      Bindings</a></p>
               </td>
             </tr>
           </tbody>
         </table>
-        <p style="margin-bottom: 0.53cm"><br>
+        <p><br>
           <br>
         </p>
       </div>
