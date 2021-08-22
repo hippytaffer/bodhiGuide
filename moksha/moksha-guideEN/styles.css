@@ -65,6 +65,8 @@
     --fg: #000000;
     --accent: #419236;
     --link-color: #333333;
+    --tr-odd: #dddddd;
+    --tr-even: #aaaaaa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -74,6 +76,8 @@
         --fg: #ffffff;
         --accent: #61b955;
         --link-color: #cccccc;
+        --tr-odd: #555555;
+        --tr-even: #666666;
     }
 }
 
@@ -119,20 +123,32 @@ h1, h2, h3, h4, h5, h6 {
  * ----------------------------------------------------------------------------
  */
 table {
-    border: 1px solid var(--fg);
+    /* border: 1px solid var(--fg); */
     border-collapse: collapse;
     border-spacing: 0;
+    margin: 0 5em;
 }
 
-td {
-    margin: 0;
-    padding: 10;
-    border: 5;
+th, td {
+    padding: 0.5em;
+    /* border: 1px solid var(--fg); */
     font-weight: inherit;
     font-style: inherit;
     line-height: 1;
     font-family: inherit;
     vertical-align: baseline;
+}
+
+th {
+    border-bottom: 2px solid var(--fg);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--tr-even);
+}
+tr:nth-child(odd) {
+    background-color: var(--tr-odd);
 }
 
 /* ----------------------------------------------------------------------------
@@ -154,15 +170,19 @@ blockquote {
     font-style: italic;
 }
 
-pre {
+code {
     border: 1px solid var(--raised-bg)
 }
 
-code {
+pre {
     color: var(--fg);
     border: 1px solid var(--raised-bg);
     border-radius: 0.2em;
     padding: 0.5em;
+}
+
+img {
+    width: 50%;
 }
 
 /* ----------------------------------------------------------------------------
