@@ -1,11 +1,4 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-      title="Wrap Long Lines">
-  </head>
-  <body>
-    <pre>/* ---------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------
  *  FILE:        Styles.css
  *  DESCRIPTION: Global Stylesheet for www.bodhilinux.com
  *  AUTHORS:     Jason Peel, Ken LaBuda, et al, Joris van Dijk.
@@ -65,21 +58,45 @@
          url('font/ubuntu-r-webfont.ttf') format('truetype'),
          url('font/ubuntu-r-webfont.svg#UbuntuRegular') format('svg');
 }
+
+:root {
+    --bg: #ffffff;
+    --raised-bg: #dddddd;
+    --fg: #000000;
+    --accent: #419236;
+    --link-color: #333333;
+    --tr-odd: #dddddd;
+    --tr-even: #aaaaaa;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #333333;
+        --raised-bg: #555555;
+        --fg: #ffffff;
+        --accent: #61b955;
+        --link-color: #cccccc;
+        --tr-odd: #555555;
+        --tr-even: #666666;
+    }
+}
+
 html, body, div {
     margin: 0;
     padding: 0;
     border: 0;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 97%;
-    line-height: 1.25;
     font-family: inherit;
     vertical-align: baseline;
 }
 
 body {
-    color: #ffffff;
+    color: var(--fg);
+    background-color: var(--bg);
     font-family: "ubuntu", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.25;
 }
 
 img {
@@ -96,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 100%;
     line-height: 1;
     font-family: inherit;
     vertical-align: baseline;
@@ -107,170 +123,164 @@ h1, h2, h3, h4, h5, h6 {
  * ----------------------------------------------------------------------------
  */
 table {
-    /*border-collapse: collapse;
-    border-spacing: 0;*/
+    /* border: 1px solid var(--fg); */
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 5em;
 }
 
-td {
-    margin: 0;
-    padding: 10;
-    border: 5;
+th, td {
+    padding: 0.5em;
+    /* border: 1px solid var(--fg); */
     font-weight: inherit;
     font-style: inherit;
-    font-size: 100%;
     line-height: 1;
     font-family: inherit;
     vertical-align: baseline;
 }
 
+th {
+    border-bottom: 2px solid var(--fg);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--tr-even);
+}
+tr:nth-child(odd) {
+    background-color: var(--tr-odd);
+}
+
 /* ----------------------------------------------------------------------------
  *  GLOBAL &gt; CLASSES
  * ----------------------------------------------------------------------------
  */
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: underline}
-
-
-/* ----------------------------------------------------------------------------
- *  GLOBAL &gt; CLASSES
- * ----------------------------------------------------------------------------
- */
-.clear {
-    clear: both;
-}
-
-.left {
-    top: 25px;
-    left: 15px;
-    margin: 5px;
-    width: 120px !important;
-    height: 201px;
-}
-
-.right {
-    right: 15px;
-    bottom: 25px;
-    margin: 5px;
-    width: 120px !important;
-    height: 201px;
-}
-
-/* ----------------------------------------------------------------------------
- *  GLOBAL &gt; CLASSES &gt; MAINLINK
- * ----------------------------------------------------------------------------
- */
-.mainlink {
-    font-family: Ubuntu; /* no .ttf */
+a:link, a:visited, a:active {
     text-decoration: none;
-    padding-top: 3px;
-    padding-right: 10px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    display: block;
+    color: var(--link-color);
+}
+a:hover {
+    text-decoration: underline;
 }
 
-a.mainlink:link, a.mainlink:visited, a.mainlink:active {
-    color: #333;
+blockquote {
+    border-left: 2px solid var(--link-color);
+    margin-left: 0.5em;
+    padding-left: 1em;
+    font-style: italic;
 }
 
-a.mainlink:hover {
-    color: #900;
+code {
+    border: 1px solid var(--raised-bg)
 }
 
+pre {
+    color: var(--fg);
+    border: 1px solid var(--raised-bg);
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
 
+img {
+    width: 50%;
+}
 
 /* ----------------------------------------------------------------------------
  *  CONTENT
  * ----------------------------------------------------------------------------
  */
-#content {
-    margin-bottom: 20px;
-    colour: black;
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 10vw;
+    color: var(--fg);
     height: auto;
-    width: 960px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#content #rightcolumn {
-    position: relative;
-    display: block;
-    margin: 15px 0 15px 15px;
-    padding: 15px 0 15px 15px;
-    width: 180px;
-    height: 495px;
-    float: left;
-    background-image: url(images/webdesign/style/rightcolumn.png);
-    background-repeat: no-repeat;
-    background-position: center;
+header {
+    background: var(--raised-bg);
+    padding: 1.2em 5vw;
+    box-shadow:  2px 2px 10px rgba(0, 0, 0, 0.2), 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: var(--fg);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    background: var(--raised-bg);
+    padding: 1.2em 5vw;
+    box-shadow:  2px 2px 10px rgba(0, 0, 0, 0.2), 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* ----------------------------------------------------------------------------
  *  CONTENT &gt; MAINCONTENT
  * ----------------------------------------------------------------------------
  */
- .clearfix {
-	clear: both;
-}
-#content #maincontent {
-    width: 900px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    color: #000000;
-    height: auto;
-    
+
+h1 {
+    font-family: Ubuntu; /* no .ttf */
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    padding: 0.4em 0;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
 }
 
-#content #maincontent h1 {
+h2 {
     font-family: Ubuntu; /* no .ttf */
-    font-size: 36px;
-    margin-bottom: 15px;
-    padding-top: 10px;
-    color: #419236;
+    font-size: 1.75em;
+    margin-bottom: 1.2em;
+    padding: 0.4em 0;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
 }
 
-#content #maincontent h2 {
+h3 {
     font-family: Ubuntu; /* no .ttf */
-    font-size: 24px;
-    margin-bottom: 5px;
-    padding-top: 5px;
-    color: #419236;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    padding: 0.4em 0;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
 }
 
-#content #maincontent h3 {
+h4 {
     font-family: Ubuntu; /* no .ttf */
-    font-size: 16px;
-    margin-bottom: 15px;
-    padding-top: 5px;
-    color: #419236;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    color: var(--accent);
 }
 
-#content #maincontent h5 {
+h5 {
     font-family: Ubuntu; /* no .ttf */
-    font-size: small;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
 }
 
-/* e17 guide purposes */
-#content #maincontent h6 {
+h6 {
     font-family: Ubuntu; /* no .ttf */
-    font-size: 16px;
-    margin-bottom:0px;
-    padding-top: 5px;
-    color: #419236;
+    font-size: 1.05em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    color: var(--accent);
 }
-#content #maincontent h7 {
-    font-family: Ubuntu; /* no .ttf */
-    margin-bottom:0px;
-    padding-top: 5px;
-    color: #419236;
-}
+
 /* ----------------------------------------------------------------------------
  *  ADDITIONS &gt; CODE TAGS
  * ----------------------------------------------------------------------------
@@ -282,7 +292,7 @@ a.mainlink:hover {
    border-color:#000;
    padding: 3px;
    margin:5px;
-   background-color:#419236;
+   background-color:var(--accent);
 }
 
 /* ----------------------------------------------------------------------------
@@ -291,14 +301,18 @@ a.mainlink:hover {
  */
 
 li {
-    list-style: decimal-leading-zero;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0 0 0 2em;
+}
+
+ol li {
+    list-style: decimal-leading-zero;
+}
+
+ol.contents {
+    font-size: 1.5em;
 }
 
 li span {
     font-size: 0.25em;
 }
-</pre>
-  </body>
-</html>

@@ -8,3 +8,16 @@
     <link rel="shortcut icon" href="http://bodhilinux.com/favicon.ico.png">
   </head>
   <body>
+    <header>
+      <h1>Bodhi Guide to Moksha</h1>
+    </header>
+    <main>
+    <!-- content goes here -->
+    </main>
+    <footer>
+      <p>Previous: <a href="">Whatever Page Goes Here</a></p>
+      <p><a href="index.html">Table of Contents</a></p>
+      <p>Next: <a href="">Whatever Page Goes Here</a></p>
+    </footer>
+  </body>
+</html>
